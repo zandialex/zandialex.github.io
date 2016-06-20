@@ -1,4 +1,3 @@
-
 body { background-color: #F9F6F3 }
 #wrapper {width: 780px; margin: auto;}
 
@@ -89,7 +88,7 @@ p {
 }
 
 #nav a:hover {
-  color: #878787;
+  color: #7F7F7F;
 }
 
 #navLinksContainer {
