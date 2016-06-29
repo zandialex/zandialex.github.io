@@ -1,3 +1,56 @@
+body { background-color: #F9F6F3 }
+#wrapper {width: 780px; margin: auto;}
+
+@font-face {
+  font-family: "San Francisco Bold";
+  font-weight: 700;
+  src: url("https://dl.dropboxusercontent.com/u/2311446/San%20Francisco%20Font/SF-UI-Text-Bold.otf");
+}
+
+@font-face {
+  font-family: "San Francisco Medium";
+  font-weight: 500;
+  src: url("https://dl.dropboxusercontent.com/u/2311446/San%20Francisco%20Font/SF-UI-Text-Medium.otf");
+}
+
+@font-face {
+  font-family: "San Francisco Semibold";
+  font-weight: 600;
+  src: url("https://dl.dropboxusercontent.com/u/2311446/San%20Francisco%20Font/SF-UI-Text-Semibold.otf");
+}
+
+@font-face {
+  font-family: "San Francisco Regular";
+  font-weight: 400;
+  src: url("https://dl.dropboxusercontent.com/u/2311446/San%20Francisco%20Font/SF-UI-Text-Regular.otf");
+}
+
+
+
+* { margin: 0, padding: 0; font-family:-apple-system, "Helvetica Neue", sans-serif; color: #969696; -webkit-font-smoothing: antialiased;}
+
+a {
+  text-decoration: none;
+}
+
+p {
+   font-weight: 400;
+  /*color: #7F7F7F;*/
+}
+
+.block {
+  /* Mask: */
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px 0px     rgba(0,0,0,0.04);
+  border-radius: 8px;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  overflow: hidden;
+}
+.block:hover {
+/*   box-shadow: 0px 1px 50px 0px     rgba(0,0,0,0.08); */
+}
+
 .columnBlock {
   width: 95.5%;
 }
