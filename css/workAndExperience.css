@@ -1,0 +1,30 @@
+#yelp {
+  float: left;
+  width: calc(50% - 15px);
+  background-color: #C21613;
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/yelp.png");
+  background-position: center;
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center 19px;
+}
+
+#yelp .subTitle {
+  color: #FAE0E0;
+}
+
+#kik {
+  float: left;
+  width: calc(50% - 15px);
+  background-color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/yelp.png");
+  background-position: center;
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center 19px;
+}
+
+#kik .subTitle {
+  color: #C9C7C4;
+}
+
