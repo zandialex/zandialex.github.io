@@ -4,8 +4,8 @@ var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Const
 // nav blur
 if (isSafari) {
   $("#nav").css("background-color", "rgba(249,246,243,0.75)");
-  $("#nav").css("-webkit-backdrop-filter", "blur(20px)");
-  $("#nav").css("backdrop-filter", "blur(20px)");
+  $("#nav").css("-webkit-backdrop-filter", "blur(30px)");
+  $("#nav").css("backdrop-filter", "blur(30px)");
 };
 
 
@@ -28,10 +28,10 @@ $(window).scroll(function(){
   // safari
   else {
     if (scrollPos > 2) {
-      $("#nav").css("box-shadow", "0px 1px 0px 0px rgba(0,0,0,0.07)");
+      $("#nav").css("box-shadow", "0px 1px 0px 0px rgba(0,0,0,0.06)");
     }
     else {
-      $("#nav").css("box-shadow", "0px 1px 6px 0px rgba(0,0,0,0.0)");
+      $("#nav").css("box-shadow", "0px 1px 7px 0px rgba(0,0,0,0.0)");
     }
   }
 });
