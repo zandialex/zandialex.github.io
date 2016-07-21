@@ -28,3 +28,45 @@
   color: #C9C7C4;
 }
 
+#appExtension {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/app%20extension.png");
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #D5DEE7;
+}
+
+#gifs {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/gifs.png");
+  background-position: center 15px;
+  background-repeat: no-repeat;
+  background-size: 95%;
+}
+
+#shareLogo {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/kiklogo.png");
+  background-position: center 27px;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+
+#glance {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/glance.png");
+  background-position: center 32px;
+  background-repeat: no-repeat;
+  background-size: 84%;
+}
+
+#dribbble {
+  background-image: url("");
+  background-position: center 32px;
+  background-repeat: no-repeat;
+  background-size: 84%;
+}
+
+#uwBot {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/uwbot.png");
+  background-position: center 32px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
