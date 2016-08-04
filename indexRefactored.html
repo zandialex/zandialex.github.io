@@ -17,14 +17,16 @@
     
     <div id="nav">
       <div id="navLinksContainer">
-        <div id="leftLinks"><a href="#work">Design</a><a href="#">Programming</a><a href="#programmingTitle">About</a></div>
-        <div id="rightLinks"><a href="mailto:azandi@uwaterloo.ca?">Contact</a></div>
+        <div id="leftLinks"><a href="#work">Design</a><br><a href="#">Programming</a><br><a href="#programmingTitle">About</a></div>
+        <div id="rightLinks"><a href="mailto:azandi@uwaterloo.ca?">Email</a></div>
+        <div style="clear: both"></div>
       </div>
+      <div id="openNav"><a href="#"><img src="images/chevron-down.png" width="34px" height="11px"></a></div>
     </div>
     
     <div id="header" class="block">
       <div id="banner">
-        <div id="bannerPosition"><img src="https://dl.dropboxusercontent.com/u/2311446/Group%202.png" alt="Smiley face"></div>
+        <img src="https://dl.dropboxusercontent.com/u/2311446/Group%202.png" alt="Smiley face">
       </div>
     </div>
     
@@ -69,6 +71,8 @@
       </div>
     </div> 
 
+    <div style="clear:both"></div> <!-- why did i need this only for chrome? -->
+
     <div class="workPieceContainer">
       <div id="shareLogo" class="block mediumBlock workPiece"></div>
       <div class="about">
@@ -80,7 +84,7 @@
     <div class="vertDivider workDivider"></div> 
 
     <div class="workPieceContainer">
-      <div class="block mediumBlock workPiece"></div>
+      <div id="glance" class="block mediumBlock workPiece"></div>
       <div class="about">
         <div class="workTitle">Glance Reminders</div>
         <div class="workAbout">Personal Project</div>
@@ -105,19 +109,20 @@
       </div>
     </div>
 
-    <!-- <div class="horizDivider"></div> -->
-    <!-- <div class="section">
-      <div class="sectionTitle"></div>
-    </div> -->
-    <!-- <div class="horizDivider"></div> -->
   </div>
   
-  <div id="footer" class="light">
+  <div id="footer" class="">
     <div id="footerWrapper">
+
+      <div class="horizDivider"></div>
+      <div class="section"></div>
+      <div class="horizDivider"></div>
+
       <div id="about">
       <h2>About Me</h2>
       <p>I'm a designer who studies CS at the <a href="http://uwaterloo.ca">University of Waterloo</a>. I've always found myself at the intersection of technology and design because I believe that technical innovation is not enough. It is the harmony of the two that makes something truly special. <br> <br> <span style="font-size: 18px; font-weight: 600;">I'm looking for an internship for summer '17. Let's keep in touch.</span></p>
       <div id="contactLinks"></div>
+      <br>
     </div>
   </div>
 

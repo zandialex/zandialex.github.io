@@ -1,7 +1,8 @@
 
 #nav {
   width: 100%;
-  height: 64px;
+  min-height: 67px;
+  height: auto;
   position: fixed;
   z-index: 100;
   top: 0;
@@ -10,19 +11,30 @@
   background-color: #F9F6F3;
 }
 
+#nav #openNav {
+  display: none;
+}
+
 #nav a {
   font-size: 16px;
 }
 
+#leftLinks br {
+  display: none;
+}
+
 #navLinksContainer {
-  width: 80%; height:18px;
+  width: 80%; /*height:18px;*/
   max-width: 780px;
   
   margin: auto;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   color: #9E9D9D;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /*background-color: red;*/
+  /*top: 50%;*/
+  /*transform: translateY(-50%);*/
 }
 
 #leftLinks {
@@ -42,12 +54,12 @@
   width: 100%;
   height: 355px;
   overflow: hidden;
-  margin-top: 64px;
+  margin-top: 67px;
 }
 
 #banner {
   height: 100%;
-  background-image: url("http://oi61.tinypic.com/n1723m.jpg");
+  background-image: url("../images/banner-scaled.png");
   background-position: center;
   background-size: 125%;
   background-size: cover;
@@ -108,13 +120,13 @@
     }
 
     #yelp {
-      background-size: 145px;
-      background-position: center 30px;
+      background-size: 70%;
+      background-size: center calc(50% - 20px);
     }
 
     #kik {
-      background-size: 145px;
-      background-position: center 30px;
+      background-size: 53%;
+      background-size: center calc(50% - 20px);
     }
 }
 
@@ -138,9 +150,57 @@
   #yelp {
     width: 100%;
     margin-bottom: 30px;
+    background-size: 180px;
   }
 
   #kik {
     width: 100%;
+    background-size: 135px;
   }
 }
+
+@media screen and (max-width: 398px) {
+  #leftLinks br {
+    display: inline;
+  }
+
+  #leftLinks a {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  #rightLinks {
+    display: none;
+  }
+
+  #banner img {
+    width: 90%;
+  }
+
+  #nav #openNav {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  #navLinksContainer {
+    display: none;
+  }
+}
+
+/*iPhone 6*/
+@media screen and (max-width: 398px) {
+  #header {
+    height: 320px;
+  }
+
+  #banner {
+    background-position: calc(50% - 120px) -58px;
+  }
+
+  .mediumBlock {
+    height: 200px;
+  }
+}
+
+

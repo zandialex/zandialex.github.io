@@ -9,7 +9,10 @@ if (isSafari) {
 };
 
 
-
+$("#openNav").click(function () {
+  $(this).css("display", "none");
+  $("#navLinksContainer").css("display", "inherit");
+});
 
 
 $(window).scroll(function(){
@@ -18,7 +21,7 @@ $(window).scroll(function(){
 
   if (!isSafari) {
     if (scrollPos > 2) {
-      $("#nav").css("box-shadow", "0px 1px 6px 0px rgba(0,0,0,0.08)");
+      $("#nav").css("box-shadow", "0px 1px 10px 0px rgba(0,0,0,0.04), 0px 1px 0px 0px rgba(0,0,0,0.03)");
     }
     else {
       $("#nav").css("box-shadow", "0px 1px 6px 0px rgba(0,0,0,0.0)");
@@ -28,7 +31,7 @@ $(window).scroll(function(){
   // safari
   else {
     if (scrollPos > 2) {
-      $("#nav").css("box-shadow", "0px 1px 0px 0px rgba(0,0,0,0.06)");
+      $("#nav").css("box-shadow", "0px 1px 9px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(0,0,0,0.042)");
     }
     else {
       $("#nav").css("box-shadow", "0px 1px 7px 0px rgba(0,0,0,0.0)");
