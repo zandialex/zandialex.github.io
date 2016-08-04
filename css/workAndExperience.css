@@ -1,0 +1,74 @@
+#yelp {
+  float: left;
+  width: calc(50% - 15px);
+  background-color: #C21613;
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/yelp.png");
+  background-position: center;
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 15px);
+}
+
+#yelp .subTitle {
+  color: #FAE0E0;
+}
+
+#kik {
+  float: left;
+  width: calc(50% - 15px);
+  background-color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/kik.png");
+  background-position: calc(50% + 6px) calc(50% - 15px);
+  background-size: 135px;
+  background-repeat: no-repeat;
+}
+
+#kik .subTitle {
+  color: #C9C7C4;
+}
+
+#appExtension {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/app%20extension.png");
+  background-position: center 10px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #D5DEE7;
+}
+
+#gifs {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/gifs.png");
+  background-position: center 15px;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-color: #F5C9AD;
+}
+
+#shareLogo {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/kiklogo.png");
+  background-position: 50% calc(50% + 6px);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-color: #DFDFDB;
+}
+
+#glance {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/glance.png");
+  background-position: center 32px;
+  background-repeat: no-repeat;
+  background-size: 84%;
+  background-color: #B0B0B3;
+}
+
+#dribbble {
+  background-image: url("");
+  background-position: center 32px;
+  background-repeat: no-repeat;
+  background-size: 84%;
+}
+
+#uwBot {
+  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/uwbot.png");
+  background-position: center 32px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
