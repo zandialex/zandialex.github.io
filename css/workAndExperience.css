@@ -2,11 +2,11 @@
   float: left;
   width: calc(50% - 15px);
   background-color: #C21613;
-  background-image: url("https://dl.dropboxusercontent.com/u/2311446/yelp.png");
+  background-image: url("../images/yelp.png");
   background-position: center;
-  background-size: 180px;
+  background-size: 750px;
   background-repeat: no-repeat;
-  background-position: center calc(50% - 15px);
+  background-position: center calc(50% - 9px);
 }
 
 #yelp .subTitle {
