@@ -36,15 +36,26 @@ a:hover {
   color: #71B2F9;
 }
 
-#nav a:hover {
-  color: #7F7F7F;
+.a--chev {
+  text-decoration: none;
+  font-weight: 500;
+  transition: all .2s ease-out;
+  background-image: url(../images/chevron-forward.png);
+  background-size: 8px;
+  background-repeat: no-repeat;
+  padding-right: 14px;
+  background-position: 100% 100%;
 }
 
-a:not(#nav a):hover {
+.a--rect-hover:hover {
   background-color: #EBE8E4;
   padding: 2px 4px 2px 4px;
   margin: -2px -4px -2px -4px; /*to avoid pusing nearby elements around*/
   border-radius: 4px;
+}
+
+#nav a:hover {
+  color: #7F7F7F;
 }
 
 .light {
@@ -63,7 +74,7 @@ p {
    font-weight: 400;
 }
 
-h1, h2, h3 {
+h1, h2, h3, span {
   color: #757575;
   margin: 0;
 }
