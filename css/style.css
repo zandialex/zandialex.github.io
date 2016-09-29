@@ -102,6 +102,60 @@
 
 #about {}
 
+.contactLinks {
+  height: 40px;
+  width: 480px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.contactLinks a {
+  display:inline-block;
+  float: left;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-right: 30px;
+  line-height: 40px;
+}
+
+.email {
+  background-image: url("../images/email.png");
+  background-size: 100%;
+  width: 48px;
+  background-position: 0 50%;
+  margin-right: 50px;
+}
+
+.twitter {
+  background-image: url("../images/twitter.png");
+  background-size: 100%;
+  width: 35px;
+  background-position: 0 50%;
+}
+
+.linkedin {
+  background-image: url("../images/linkedin.png");
+  background-size: 100%;
+  width: 31px;
+  background-position: 0 50%;
+}
+
+.verticalBorder {
+  width: 1px;
+  height: 100%;
+  background-color: #E2DDD8;
+  margin-right: 30px;
+  float: left;
+}
+
+.seeResume {
+  background-color: #969696;
+  border-radius: 100px;
+  padding: 0 20px 0 20px;
+  color: #F9F6F3;
+}
+
+
 /*RESPONSIVE*/
 @media screen and (max-width: 699px) {
 

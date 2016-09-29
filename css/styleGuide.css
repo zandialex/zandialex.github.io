@@ -70,6 +70,16 @@ a:hover {
   color: white;
 }
 
+.contactLink {
+    width: calc(100%/4);
+    height: 60px;
+    float: left;
+    background-image: url(images/chevron-back.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 15%;
+}
+
 p {
    font-weight: 400;
 }
