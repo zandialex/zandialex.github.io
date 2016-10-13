@@ -70,6 +70,56 @@ a:hover {
   color: white;
 }
 
+#nav {
+  width: 100%;
+  min-height: 67px;
+  height: auto;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.0);
+  background-color: #F9F6F3;
+}
+
+#nav #openNav {
+  display: none;
+}
+
+#nav a {
+  font-size: 16px;
+}
+
+#leftLinks br {
+  display: none;
+}
+
+#navLinksContainer {
+  width: 80%; /*height:18px;*/
+  max-width: 780px;
+  
+  margin: auto;
+  position: relative;
+  color: #9E9D9D;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /*background-color: red;*/
+  /*top: 50%;*/
+  /*transform: translateY(-50%);*/
+}
+
+#leftLinks {
+  float: left;
+}
+
+#leftLinks a {
+   margin-right: 20px;
+}
+
+#rightLinks {
+  float: right;
+}
+
 .contactLink {
     width: calc(100%/4);
     height: 60px;
@@ -78,6 +128,11 @@ a:hover {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 15%;
+}
+
+.intro {
+  font-size: 18px;
+  margin-top: 25px;
 }
 
 p {
@@ -89,7 +144,21 @@ h1, h2, h3, span {
   margin: 0;
 }
 
+h3 {
+
+}
+
 body { background-color: #F9F6F3; }
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  font-size: 
+}
 
 #wrapper, #footerWrapper {
   width: 80%; 
@@ -103,7 +172,7 @@ body { background-color: #F9F6F3; }
 
 .block {
   /* Mask: */
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04);
   border-radius: 8px;
   overflow: hidden;
@@ -185,6 +254,7 @@ body { background-color: #F9F6F3; }
 }
 
 .workPiece {
+  height: 300px;
 }
 
 .workTitle {
@@ -201,3 +271,40 @@ body { background-color: #F9F6F3; }
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
 }
 
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: calc(100% / 3);
+}
+
+.vertAlign {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nextPage {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+  padding: 30px;
+  padding-top: 45px;
+}
+
+.nextPage.block {
+  height: 150px;
+  font-weight: 300;
+}
+
+.nextPage h2 {
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.nextPage p {
+  margin: 0;
+  color: #B1B1B1;
+}
