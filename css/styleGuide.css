@@ -176,6 +176,7 @@ body { background-color: #F9F6F3; }
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04);
   border-radius: 8px;
   overflow: hidden;
+  position: relative;
 }
 
 .block:hover { 
@@ -205,7 +206,6 @@ body { background-color: #F9F6F3; }
 }
 
 .hoverBlock {
-  position: relative;
   transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
 }
 
