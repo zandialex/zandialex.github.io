@@ -163,15 +163,15 @@ body { background-color: #F9F6F3; }
 .button_secondary {
   background-color: #C8C5C2;
   color: white;
-  padding: 8px 12px 11px 12px;
+  padding: 9px 12px 10px 12px;
   border-radius: 4px;
 }
 
 .button--image {
   padding-left: 35px;
-  background-position: 10px center;
+  background-position: 12px center;
   background-repeat: no-repeat;
-  background-size: 14px;
+  background-size: 13px;
 }
 
 #wrapper, #footerWrapper {
