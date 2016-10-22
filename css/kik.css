@@ -52,3 +52,7 @@
   background-size: 390px;
   background-repeat: no-repeat;
 }
+
+.see_styleguide {
+  background-image: url(../images/arrow-down.png);
+}
