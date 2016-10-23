@@ -133,6 +133,7 @@ a:hover {
 .intro {
   font-size: 18px;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 p {
@@ -148,7 +149,10 @@ h3 {
 
 }
 
-body { background-color: #F9F6F3; }
+body {
+  background-color: #F9F6F3;
+  margin: 0;
+}
 
 .banner {
   background-position: center;
@@ -163,7 +167,7 @@ body { background-color: #F9F6F3; }
 .button_secondary {
   background-color: #C8C5C2;
   color: white;
-  padding: 9px 12px 10px 12px;
+  padding: 8px 12px 10px 12px;
   border-radius: 4px;
 }
 
@@ -172,6 +176,10 @@ body { background-color: #F9F6F3; }
   background-position: 12px center;
   background-repeat: no-repeat;
   background-size: 13px;
+}
+
+.link-minimal {
+  color: #71B2F9;
 }
 
 #wrapper, #footerWrapper {
