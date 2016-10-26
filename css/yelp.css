@@ -17,7 +17,7 @@
 
 #banner img {
   height: auto; width: 350px;
-  margin-top: 45px;
+  margin-top: 46px;
 }
 
 #banner h3 {
@@ -31,3 +31,7 @@
   background-image: url("../images/banner/kik_team_dark.png");
 }
 
+span {
+  display: inline-block;
+  width: 20px;
+}

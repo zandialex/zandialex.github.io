@@ -33,15 +33,21 @@
 }
 
 .workPiece.iosExtension {
-  background-image: url("../images/faded_divider_right.png"), url("../images/projects/extension.png");
-  background-position: 95% 100%, 95% 30px;
+  background-image: 
+    url("../images/faded_divider_right.png"), 
+    url("../images/projects/extension.png"),
+    url("../images/projects/back_shadow.png");
+  background-position: 95% 100%, 95% 30px, 95% 50%;
   background-size: 432px, 290px;
   background-repeat: no-repeat;
 }
 
 .workPiece.gifs {
-  background-image: url("../images/faded_divider_left.png"), url("../images/projects/gifs.png");
-  background-position: 5% 100%, 5% 30px;
+  background-image: 
+    url("../images/faded_divider_left.png"),
+    url("../images/projects/gifs.png"),
+    url("../images/projects/back_shadow.png");
+  background-position: 5% 100%, 5% 30px, 5% 50%;
   background-size: 432px, 290px;
   background-repeat: no-repeat;
 }
