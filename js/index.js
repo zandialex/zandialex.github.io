@@ -14,13 +14,6 @@ $("#openNav").click(function () {
   $("#navLinksContainer").css("display", "inherit");
 });
 
-var originalKikText = $("#kik p").text();
-$("#kik").mouseover(function() {
-  $("#kik p").text("Coming Soon");
-});
-$("#kik").mouseout(function() {
-  $("#kik p").text(originalKikText);
-});
 
 var originalYelpText = $("#yelp p").text();
 $("#yelp").mouseover(function() {
