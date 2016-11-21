@@ -31,7 +31,29 @@
   background-image: url("../images/banner/kik_team_dark.png");
 }
 
-span {
-  display: inline-block;
-  width: 20px;
+.workPiece.msite {
+  background-image: 
+    url("../images/faded_divider_right.png"), 
+    url("../images/projects/msite.png"),
+    url("../images/projects/back_shadow.png");
+  background-position: 95% 100%, 95% bottom, 95% 50%;
+  background-size: 432px, 290px;
+  background-repeat: no-repeat;
+}
+
+.workPiece.header {
+  background-image: url("../images/projects/header.png");
+  background-position: center 110px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.workPiece.email {
+  background-image: 
+    url("../images/faded_divider_right.png"), 
+    url("../images/projects/email_no_shadow.png"),
+    url("../images/projects/back_shadow.png");
+  background-position: 95% 100%, calc(100% - 40px) top, 95% 50%;
+  background-size: 432px, 290px;
+  background-repeat: no-repeat;
 }

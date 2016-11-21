@@ -25,7 +25,7 @@ $("#yelp").mouseout(function() {
 
 $(window).scroll(function(){
   var scrollPos = $(this).scrollTop();
-  var bannerPos = $("#banner").offset().top;
+  var bannerPos = $(".banner").offset().top;
 
   if (!isSafari) {
     if (scrollPos > 2) {

@@ -36,6 +36,15 @@ a:hover {
   color: #71B2F9;
 }
 
+.blue_link {
+  color: #71B2F9;
+  display: inline-block;
+}
+
+.large_link {
+  font-size: 18px;
+}
+
 .a--chev {
   text-decoration: none;
   font-weight: 500;
@@ -133,11 +142,12 @@ a:hover {
 .intro {
   font-size: 18px;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 
 p {
-   font-weight: 400;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 h1, h2, h3, span {
@@ -158,10 +168,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.intro {
-  font-size: 
+  overflow: auto;
 }
 
 .button_secondary {
@@ -276,7 +283,7 @@ body {
 }
 
 .workPiece {
-  height: 300px;
+  height: 330px;
 }
 
 .workTitle {
@@ -286,6 +293,10 @@ body {
 
 .workAbout {
   margin-top: 6px;
+}
+
+.blue_banner {
+  background-color: #62BCF5;
 }
 
 .island {
@@ -299,6 +310,22 @@ body {
 
 .col-3 {
   width: calc(100% / 3);
+}
+
+.orange_tag {
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 2px 8px 4px 8px;
+    border: 1px solid orange;
+    border-radius: 3px;
+    color: orange;
+    position: relative;
+    top: -3px;
+}
+
+small {
+  color: #A7A7A7;
 }
 
 .vertAlign {
@@ -329,4 +356,42 @@ body {
 .nextPage p {
   margin: 0;
   color: #B1B1B1;
+}
+
+.read_more_block h3 {
+  text-align: center;
+}
+
+.read_more_block a {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.large_blue_chevron {
+  background-image: url('../ui/large_blue_chevron_thin.png');
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: right 4px;
+  padding-right: 16px;
+}
+
+.back_chevron_gray {
+  padding-left: 18px;
+  background-image: url('../ui/gray_back_chevron.png');
+  background-size: 9px;
+  background-position: 1px center;
+  background-repeat: no-repeat;
+}
+
+.u-t1 {
+  margin-top: 6px;
+}
+
+.u-t2 {
+  margin-top: 12px;
+}
+
+.u-text-center {
+  text-align: center;
 }
