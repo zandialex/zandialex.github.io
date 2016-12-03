@@ -220,15 +220,15 @@ body {
 
 .medium_circle {
   background-color: rgba(117, 117, 117, 0.4);
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   border-radius: 200px;
   overflow: auto;
 }
 
 .medium_circle p {
-  margin-top: 12px;
+  margin-top: 7px;
   margin-bottom: 0;
   color: #F9F6F3;
   font-weight: bold;
@@ -278,6 +278,19 @@ body {
   height: 1px;
   background-color: #E2DDD8;
   margin: 10px auto 10px auto;
+}
+
+.small_section {
+  width: 200px;
+  max-width: 40%;
+  margin: auto;
+  height: 1px;
+  background-color: #E2DDD8;
+  margin: 10px auto 10px auto;
+}
+
+.screen {
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04);
 }
 
 .sectionTitle {
