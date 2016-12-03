@@ -37,7 +37,7 @@
     url("../images/projects/extension.png"),
     url("../images/projects/back_shadow.png"),
     url("../images/projects/back_shadow.png");
-  background-position: calc(100% - 150px) 100%, calc(95% - 120px) bottom, calc(95% + 20px) bottom;
+  background-position: calc(100% - 150px) 30px, calc(95% - 120px) bottom, calc(95% + 20px) bottom;
   background-size: 290px, 432px, 432px;
   margin-right: -150px;
   padding-right: 150px;

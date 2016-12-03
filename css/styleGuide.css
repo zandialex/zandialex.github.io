@@ -214,6 +214,26 @@ body {
 
 /*TODO: make an animation class*/
 
+.col-3 .medium_circle {
+  margin: auto;
+}
+
+.medium_circle {
+  background-color: rgba(117, 117, 117, 0.4);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 200px;
+  overflow: auto;
+}
+
+.medium_circle p {
+  margin-top: 12px;
+  margin-bottom: 0;
+  color: #F9F6F3;
+  font-weight: bold;
+}
+
 .horizDivider {
   height: 30px;
   width: 100%;
@@ -296,7 +316,8 @@ body {
 }
 
 .blue_banner {
-  background-color: #62BCF5;
+  /*background-color: #62BCF5;*/
+  background-color: linear-gradient(-180deg, #B6C6D4 0%, #D5DEE7 100%);
 }
 
 .island {
@@ -390,6 +411,14 @@ small {
 
 .u-t2 {
   margin-top: 12px;
+}
+
+.u-space-b2 {
+  margin-bottom: 12px;
+}
+
+.u-space-b4 {
+  margin-bottom: 12px;
 }
 
 .u-text-center {

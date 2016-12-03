@@ -11,9 +11,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('../images/banner/share_extension.png'), url('../images/projects/dark_back_shadow.png'), url('../images/projects/dark_back_shadow.png');
-  background-size: 290px, 440px, 440px;
-  background-position: 82% 30px, 85% bottom, 110% bottom;
+  background-image: 
+    url('../images/banner/share_extension.png'),
+    url('../images/projects/dark_back_shadow.png'),
+    url('../images/projects/dark_back_shadow.png'),
+    linear-gradient(-180deg, #B0C0CE 0%, #CAD6E2 100%);
+  background-size: 290px, 440px, 440px, 100%;
+  background-position: 82% 30px, 85% bottom, 110% bottom, top;
 }
 
 .banner h2, .banner h3 {
