@@ -1,0 +1,43 @@
+#header { 
+  background-color: white;
+  width: 100%;
+  height: 355px;
+  overflow: hidden;
+  margin-top: 67px;
+}
+
+.banner--share_extension {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: 
+    url('../images/banner/share_extension.png'),
+    url('../images/projects/dark_back_shadow.png'),
+    url('../images/projects/dark_back_shadow.png'),
+    linear-gradient(-180deg, #ECC8B0 0%, #ECD4C5 100%);
+  background-size: 290px, 440px, 440px, 100%;
+  background-position: 82% 30px, 85% bottom, 110% bottom, top;
+}
+
+.banner--share_extension h2,
+.banner--share_extension h3 {
+  margin-bottom: 6px;
+  margin-left: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+.banner--share_extension h2 {
+  font-size: 30px;
+}
+
+.banner--share_extension h3 {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.nextPage {
+  background-image: linear-gradient(-180deg, #ECC8B0 0%, #ECD4C5 100%);
+  background-position: 0 50%;
+}

@@ -292,6 +292,7 @@ body {
 
 .screen {
   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.04);
+  border: 1px solid rgba(29,14,0,0.07);
 }
 
 .sectionTitle {
