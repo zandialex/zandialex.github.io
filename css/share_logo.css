@@ -15,7 +15,7 @@
     url('../images/banner/share_extension.png'),
     url('../images/projects/dark_back_shadow.png'),
     url('../images/projects/dark_back_shadow.png'),
-    linear-gradient(-180deg, #B0C0CE 0%, #CAD6E2 100%);
+    linear-gradient(-180deg, #CDC6BE 0%, #E1DCD7 100%);
   background-size: 290px, 440px, 440px, 100%;
   background-position: 82% 30px, 85% bottom, 110% bottom, top;
 }
@@ -38,10 +38,10 @@
 }
 
 .nextPage {
-  background-image: linear-gradient(-180deg, #ECC8B0 0%, #ECD4C5 100%);
+  background-image: linear-gradient(-180deg, #CDC6BE 0%, #E1DCD7 100%);
   background-position: 0 50%;
 }
 
 .nextPage p {
-  color: rgba(255, 244, 230, 0.95);
+  color: rgba(255, 255, 255, 0.75);
 }

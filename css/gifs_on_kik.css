@@ -38,6 +38,10 @@
 }
 
 .nextPage {
-  background-image: linear-gradient(-180deg, #ECC8B0 0%, #ECD4C5 100%);
+  background-image: linear-gradient(-180deg, #CDC6BE 0%, #E1DCD7 100%);
   background-position: 0 50%;
+}
+
+.nextPage p {
+  color: rgba(255, 255, 255, 0.75);
 }
