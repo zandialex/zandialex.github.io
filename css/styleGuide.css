@@ -374,6 +374,7 @@ ol.circles li {
   width: 253px;
   background-image: url("../images/devices/iphone_5s.png");
   background-size: 100%;
+  margin: auto;
 }
 
 .iphone_5s video {
