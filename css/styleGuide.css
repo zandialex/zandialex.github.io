@@ -369,6 +369,19 @@ ol.circles li {
   margin-top: 6px;
 }
 
+.iphone_5s {
+  height: 531px;
+  width: 253px;
+  background-image: url("../images/devices/iphone_5s.png");
+  background-size: 100%;
+}
+
+.iphone_5s video {
+  margin-top: 31.2%;
+  margin-left: 8.45%;
+  width: 84%;
+}
+
 .blue_banner {
   /*background-color: #62BCF5;*/
   background-color: linear-gradient(-180deg, #B6C6D4 0%, #D5DEE7 100%);
