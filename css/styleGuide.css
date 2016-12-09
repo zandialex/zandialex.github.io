@@ -41,6 +41,14 @@ a:hover {
   display: inline-block;
 }
 
+.disabled_link {
+  color: #C1C1C1;
+}
+
+.disabled_link:hover {
+  color: #C1C1C1;
+}
+
 .large_link {
   font-size: 18px;
 }
