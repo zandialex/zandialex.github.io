@@ -342,6 +342,12 @@ ol.circles li {
   border: 1px solid rgba(29,14,0,0.07);
 }
 
+.screen + small {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
 .sectionTitle {
   font-size: 14px;
   font-weight: 700;
@@ -493,8 +499,12 @@ small {
   margin-bottom: 12px;
 }
 
+.u-space-b3 {
+  margin-bottom: 18px;
+}
+
 .u-space-b4 {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
 
 .u-space-t0 {
@@ -512,3 +522,4 @@ small {
 .u-float-left {
   float: left;
 }
+
