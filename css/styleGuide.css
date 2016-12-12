@@ -496,8 +496,16 @@ small {
   margin-top: 12px;
 }
 
+.u-space-t2 {
+  margin-top: 12px;
+}
+
 .u-space-b2 {
   margin-bottom: 12px;
+}
+
+.u-space-b4 {
+  margin-bottom: 24px;
 }
 
 .u-space-b3 {
