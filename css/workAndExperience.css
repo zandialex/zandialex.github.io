@@ -67,6 +67,13 @@
   background-size: 84%;
 }
 
+#msite {
+  background-image: url("../images/projects/msite_gold.png");
+  background-position: center 38px;
+  background-repeat: no-repeat;
+  background-size: 78%;
+}
+
 #uwBot {
   background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/uwbot.png");
   background-position: center 38px;
