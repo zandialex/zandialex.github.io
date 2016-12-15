@@ -37,11 +37,11 @@
   background-size: 290px, 290px;
   background-repeat: no-repeat;
   padding-right: 120px;
-  margin-right: -120px;
+   margin-right: -120px;
 }
 
 .workPiece.header {
-  background-image: url("../images/projects/header.png");
+  background-image: url("../images/projects/header_3.png");
   background-position: center 130px;
   background-size: 100%;
   background-repeat: no-repeat;
