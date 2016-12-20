@@ -125,7 +125,7 @@
 
     #yelp {
       background-size: 70%;
-      background-size: center calc(50% - 20px);
+      background-size: 319%;
     }
 
     #kik {
@@ -154,7 +154,7 @@
   #yelp {
     width: 100%;
     margin-bottom: 30px;
-    background-size: 180px;
+    background-size: 220%;
   }
 
   #kik {
