@@ -28,19 +28,18 @@
 }
 
 #appExtension {
-  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/app%20extension.png");
-  background-position: center 10px;
+  background-image: url("../images/projects/extension.png");
+  background-position: center 27px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 85%;
   background-color: #D5DEE7;
 }
 
 #gifs {
-  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/gifs.png");
-  background-position: center 15px;
+  background-image: url("../images/projects/gifs.png");
+  background-position: center 27px;
   background-repeat: no-repeat;
-  background-size: 95%;
-  /*background-color: #F5C9AD;*/
+  background-size: 85%;
   background-color: #F5D5C1;
 }
 
@@ -54,9 +53,9 @@
 
 #glance {
   background-image: url("../images/projects/glance.png");
-  background-position: center 35px;
+  background-position: center 27px;
   background-repeat: no-repeat;
-  background-size: 86%;
+  background-size: 85%;
   background-color: #B0B0B3;
 }
 
@@ -69,14 +68,14 @@
 
 #msite {
   background-image: url("../images/projects/msite_gold.png");
-  background-position: center 38px;
+  background-position: center 27px;
   background-repeat: no-repeat;
   background-size: 75%;
 }
 
 #uwBot {
-  background-image: url("https://dl.dropboxusercontent.com/u/2311446/work%20pieces/uwbot.png");
-  background-position: center 38px;
+  background-image: url("../images/projects/uwbot.png");
+  background-position: center 27px;
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 55%;
 }
