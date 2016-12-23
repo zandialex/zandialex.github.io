@@ -416,6 +416,14 @@ br + small {
   width: calc(100% / 3);
 }
 
+.col-20 {
+  width: 20%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
 .orange_tag {
     margin-left: 12px;
     font-size: 14px;
