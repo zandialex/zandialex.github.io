@@ -38,6 +38,15 @@
 }
 
 .nextPage {
-  background-image: url("../images/banner/san_francisco_dark.png");
-  background-position: 0 50%;
+  background-image: 
+    url('../images/banner/share_logo.png'),
+    linear-gradient(-180deg, #CDC6BE 0%, #E1DCD7 100%);
+  background-repeat: no-repeat;
+  background-size: 410px, 100%;
+  background-position: calc(100% - 50px) calc(50% + 30px), 0;
+}
+
+.nextPage p {
+  color: white;
+  opacity: 0.7;
 }
