@@ -163,17 +163,13 @@ p, strong, small {
   color: #8E8E8E;
 }
 
-ul p, li p {
-  margin: 0;
-}
-
 h1, h2, h3, span {
   color: #757575;
   margin: 0;
 }
 
 h3 {
-  font-size: 18px;
+
 }
 
 body {
@@ -181,35 +177,11 @@ body {
   margin: 0;
 }
 
-li {
-  margin: 8px 0;
-}
-
 .sub_info {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
   font-style: italic;
-}
-
-.quote {
-  margin-left: 30px;
-  font-weight: 600;
-}
-
-.quote p:first-child {
-  font-style: italic;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.quote .author {
-  width: 100%;
-  font-weight: normal;
-  text-align: right;
-  position: relative;
-  right: 20px;
-  margin-top: 0;
 }
 
 .banner {
@@ -444,10 +416,6 @@ br + small {
   width: calc(100% / 3);
 }
 
-.col-4 {
-  width: calc(100% / 4);
-}
-
 .col-20 {
   width: 20%;
 }
@@ -570,10 +538,5 @@ small {
 
 .u-float-left {
   float: left;
-}
-
-.u-img-center {
-  display: block;
-  margin: 0 auto;
 }
 
