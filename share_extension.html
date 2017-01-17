@@ -39,51 +39,74 @@
     <div class="small_section"></div>
     <div class="horizDivider"></div>
 
-    <h2 class="">The Goals</h2>
-    <p>The goals of this project were to make sharing content with people and groups on Kik as simple as possible. In addition, Kik was releasing new bubble styles with cool content previews at the time called "content bubbles" (seen below) so it also needed to work well around all types of attachments.</p>
+    <h2 class="">Problems and Constraints</h2>
+    <ul>
+      <li><p>There was no way to share content in Kik from outside the app</p></li>
+      <li><p>It can only send to a single user</p></li>
+      <li><p>It can only send photos + videos, however will be able to send other content later</p></li>
+    </ul>
 
     <div class="horizDivider"></div>
 
-    <h2 class="">Iterations</h2>
-    <p>I explored a couple different iterations. There were three main ones:</p><br>
+    <h2>The Beginning</h2>
+    <p>Text</p>
 
-    <div class="u-text-center">
-      <div class='col-3 share_extension_it1' style="float:left;">
-        <img src="images/projects/screens/extension_alert_ui.png" width="90%" class="screen u-space-b4">
-        <div class="medium_circle"><p>1</p></div>
-      </div>
-      <div class='col-3 share_extension_it2' style="float:left">
-        <img src="images/projects/screens/extension_circles.png" width="90%" class="screen u-space-b4">
-        <div class="medium_circle"><p>2</p></div>
-      </div>
-      <div class='col-3 share_extension_it3' style="float:left">
-        <img src="images/projects/screens/extension_recents.png" width="90%" class="screen u-space-b4">
-        <div class="medium_circle"><p>3</p></div>
-      </div>
+    <div class="horizDivider"></div>
+
+    <h2>Not a Mini-app</h2>
+    <p>I later realized after reading the Apple Human Interface Guidelines that these designs are probably too complicated for an iOS app extension. An engineer also pointed out the potential issue of not being approved in the app store.</p>
+
+    <div class="quote">
+      <p>“An extension isn’t a mini-app. It performs a narrowly scoped task related to the current context.”</p>
+      <p class="author">- Apple Human Interface Guidelines</p>
+    </div>
+ 
+    <p>So I reworked the design to make it more appropriate. I removed the chat history and experimented with making the extension as simple as possible. My designs ended up looking like a typical share extension.</p><br>
+
+    <div class="col-40 u-text-center" style="margin:auto">
+      <img src="images/projects/screens/extension_alert_ui.png" width="90%" class="screen">
+      <small></small>
     </div>
 
     <div class="horizDivider"></div>
 
-    <div class="circle_list">
-      <div class="small_circle u-float-left"><p>1</p></div>
-      <p class="circle_paragraph u-space-t0 u-space-b0">
-        The first iteration looked very much like a typical iOS extension. However, this solution was not optimal for our needs. It seemed like people preferred sharing with people in their <strong>recents list</strong> instead. In addition, there was not enough focus on recipients/friends to signify what should happen next. This also didn't work well with our content bubbles. 
-      </p>
-      <div style="clear: both"></div><br>
+    <h3>Room for Improvement</h3>
+    <ul>
+      <li><p>For an attachment, people will share it with a different comment depending on the person. A UI that encourages users to write a message before choosing a recipient would result in more <strong>generic</strong> and <strong>less personal messages.</strong></p></li>
 
-      <div class="small_circle u-float-left"><p>2</p></div>
-        <p class="circle_paragraph u-space-t0 u-space-b0">
-          The second iteration focused on recent contacts and profile photos but this design had trouble displaying <strong>more than two names per chat</strong>, and this made group chats hard to distinguish. This design also bet on users always having <strong>profile photos</strong>, and it became difficult to choose the right recipients with only a first name.
-        </p>
-      <div style="clear: both"></div><br>
+      <li><p>Articles and links would need more space when released later on. This design made it feel a bit squished.</p></li>
+    </ul>
 
-      <div class="small_circle u-float-left"><p>3</p></div>
-      <p class="circle_paragraph u-space-t0 u-space-b0">
-        <p class="circle_paragraph u-space-t0 u-space-b4">
-          The third iteration seemed to do the job the best. You see your recents and are proceeded by a page to write your message and confirm the content you're about to send. This also worked great with our content bubbles that would display when sending attachments like articles or links.
-        </p>
-      <div style="clear: both"></div><br>
+    <div class="horizDivider"></div>
+
+    <h2 class="">Send to Your Friends</h2>
+
+    <p>Next I experimented with a design that focused on friends.</p>
+
+    <br>
+
+    <div class="col-40 u-text-center" style="margin:auto">
+      <img src="images/projects/screens/extension_circles.png" width="90%" class="screen">
+      <small></small>
     </div>
+
+
+    <div class="horizDivider"></div>
+
+    <h3>Room for Improvement</h3>
+    <ul>
+      <li><p>lots of people on Kik don’t have profile photos, so lots of focus shifts to names to distinguish users</p></li>
+
+      <li><p>names couldn't completely fit, this was especially a problem with group chats</p></li>
+    </ul>
+
+    <div class="horizDivider"></div>
+
+    <h2>Final Product</h2>
+
+    <p>Finally I was getting closer to a solution. Eventually I landed with the design below. You see your recents and are proceeded by a page to write your message and confirm the content you're about to send. This also worked great with our content bubbles that would display when sending attachments like articles or links.</p>
+
+    <div class="horizDivider"></div>
 
     <div class="col-40 u-text-center" style="float:left">
       <img src="images/projects/screens/extension_recents.png" width="90%" class="screen">
@@ -101,8 +124,7 @@
     <div class="horizDivider"></div>
 
     <h3>Content Bubbles</h3>
-    <p>This design allowed us to really take advantage of our bubble previews.
-    <div class="horizDivider"></div>
+    <p>This design allowed us to really take advantage of our bubble previews.</p><br>
 
     <div class="u-text-center">
       <div class='col-3 share_extension_it1' style="float:left;">
@@ -115,12 +137,10 @@
         <img src="images/projects/screens/article.png" width="90%" class="u-space-b4">
       </div>
     </div>
-
-
-    <div class="horizDivider"></div>
+    
     <div class="horizDivider"></div>
 
-    <h2 class="">Final Product</h2>
+    <h3 class="">Prototype</h3>
     <p>Here's a prototype of the final design, it was made with Framer.</p><br>
 
     <div class="iphone_5s">

@@ -34,13 +34,83 @@
       </div>
     </div>
 
-    <p class="intro">After Kik acquired the GIF messaging app Relay we needed to add GIFs to the app. I designed the first GIF experience on the Kik app. Through an iterative design process, we killed <strong>many</strong> ideas to arrive at something that made sense.</p>
+    <p class="intro">After Kik acquired the GIF messaging app Relay we needed to add GIFs to the app. I designed the first GIF experience on the Kik app.</p>
 
     <div class="small_section"></div>
     <div class="horizDivider"></div>
 
-    <h2>The Goals</h2>
-    <p >The goals of this app were to make sharing and discovering GIFs fun and easy. We also needed a way to add curated content. </p>
+    <h2>Problems and Constraints</h2>
+      <ul>
+        <li><p>There was no way for users to share GIFs</p></li>
+        <li><p>There should be a search feature</p></li>
+        <li><p>There should be a way to curate GIFs into collections</p></li>
+      </ul>
+
+    <div class="horizDivider"></div>
+
+    <h2>The Grid</h2>
+    <p>Since we would need a way to display search results and collections, I explored different layouts to present multiple GIFs.</p>
+    
+    <div class="horizDivider"></div>
+
+    <div class="col-4 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/grid.png" class="screen" width="90%"><br>
+      <small>Rectangles 3-Column</small>
+    </div>
+    <div class="col-4 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/masonry.png" class="screen" width="90%"><br>
+      <small>Masonry 3-Column</small>
+    </div>
+    <div class="col-4 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/masonry_2_column.png" class="screen" width="90%"><br>
+      <small>Rectangles 2-Column</small>
+    </div>
+    <div class="col-4 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/masonry_2_column.png" class="screen" width="90%"><br>
+      <small>Masonry 2-Column</small>
+    </div>
+
+    <div class="horizDivider"></div>
+
+    <h3>Masonry Style (2-Column)</h3>
+    <p>I quickly realized that hardly any GIF has the same aspect ratio. Masonry style seemed like the best option since it displayed almost all GIFs at their true aspect ratio while still feeling organized.</p>
+
+    <div class="horizDivider"></div>
+
+    <div class="col-2 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/masonry_2_column.png" class="screen" width="60%"><br>
+      <small>Masonry 2-Column</small>
+    </div>
+    <div class="col-2 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/masonry_2_column.png" class="screen" width="60%"><br>
+      <small>Masonry with GIFS</small>
+    </div>
+
+    <div class="horizDivider"></div>
+
+    <p>The 3-column layout seemed quite small, especially since most users were using devices that were equal to or lesser than the size of an iPhone 5. After testing out the 2 column layout it looked like a better option.</p>
+    <p>However we did use a 3-column layout for landscape since the screen would become much wider. Otherwise GIFs would be extremely stretched and wouldn’t even be able to see a full one in the grid</p>
+
+    <div class="horizDivider"></div>  
+
+    <h2>Collections</h2>
+    <p>Regular collections would be mostly based on a search term so we could easily add new “collections” about current events (e.g a collection of Christmas GIFs).</p>
+    <p>Sponsored collections would ideally be curated by sponsors with GIFs about their product. A collection of GIFs about a TV season finale episode.</p>
+
+    <div class="horizDivider"></div>
+
+    <div class="col-3 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/minimized_collections.png" class="screen" width="90%"><br>
+      <small>Collections View</small>
+    </div>
+    <div class="col-3 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/minimized_collection.png" class="screen" width="90%"><br>
+      <small>A Sponsored Collection</small>
+    </div>
+    <div class="col-3 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/expanded_sponsored_collection.png" class="screen" width="90%"><br>
+      <small>Fullscreen</small>
+    </div>
 
     <div class="horizDivider"></div>
 
@@ -49,8 +119,8 @@
     <div class="horizDivider"></div>
 
     <div class="col-3 u-text-center" style="float:left">
-      <img src="images/projects/screens/gifs/expanded_search.png" class="screen" width="90%"><br>
-      <small>Search</small>
+      <img src="images/projects/screens/gifs/search_tags_3.png" class="screen" width="90%"><br>
+      <small>Search (Later Changed)</small>
     </div>
     <div class="col-3 u-text-center" style="float:left">
       <img src="images/projects/screens/gifs/expanded_results.png" class="screen" width="90%"><br>
@@ -64,24 +134,39 @@
     <div class="horizDivider"></div>
     <div class="horizDivider"></div>
 
-    <h2>Collections</h2>
+    <h2>Preview a GIF</h2>
+    <p>Before sending a GIF there should be a way to preview it (especially since GIFs are not always family-friendly!).</p>
     
     <div class="horizDivider"></div>
 
-    <div class="col-2 u-text-center" style="float:left">
-      <img src="images/projects/screens/gifs/minimized_collections.png" class="screen" width="60%"><br>
-      <small>Collections View</small>
+    <div class="col-3 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/sloths_for_preview.png" class="screen" width="90%"><br>
+      <small>Choose a GIF</small>
     </div>
-    <div class="col-2 u-text-center" style="float:left">
-      <img src="images/projects/screens/gifs/minimized_collection.png" class="screen" width="60%"><br>
-      <small>A Sponsored Collection</small>
+    <div class="col-3 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/preview_sloth.png" class="screen" width="90%"><br>
+      <small>Preview</small>
+    </div>
+    <div class="col-3 u-text-center" style="float:left">
+      <img src="images/projects/screens/gifs/sent_sloth.png" class="screen" width="90%"><br>
+      <small>Sent</small>
     </div>
 
     <div class="horizDivider"></div>
 
-    <div class="horizDivider"></div>
+    <h2>The icon</h2>
+    <p>Since Kik had a UI pattern of displaying the content type on each bubble with an icon (this pattern was later removed), I created a new icon for GIFs.</p>
+
+    <p>Since there was no physical representation of a GIF (unlike an icon for the camera) I knew it would have to be a bit more symbolic than the other icons on the app. The icon should revolve around the ideas of expression, emotion, and fun.</p>
+
+    [Icon Iterations]
+
+    <p>After several iterations I liked the rainbow feeling. It felt very expressive. Had the colors been grouped in “warm”, “cool” or another small group of colors the associations could have communicated a specific emotion (cold/sadness or sunny/happy) but GIFs are used to express all sorts of emotions. The pixelated colors also helped communicate the feeling of “rawness” since GIFs are usually “unpolished.”</p>
 
     <div class="horizDivider"></div>
+
+    <img src="https://dl.dropboxusercontent.com/u/2311446/icons/rainbow.png" width="45%" class="u-img-center">
+
     <div class="horizDivider"></div>
 
     <div class="horizDivider"></div>
