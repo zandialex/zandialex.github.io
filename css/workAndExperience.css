@@ -48,10 +48,12 @@
 }
 
 #emails {
-  background-image: url("../images/banner/emails_long.png");
-  background-position: center 35px;
+  background-image:
+    url("../images/banner/emails_long.png"),
+    linear-gradient(-180deg, #D5C8C8 0%, #EFE2E2 100%);
+  background-position: center 35px, 0 0;
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 85%, 100%;
   background-color: #DED2D2;  
 }
 
