@@ -28,17 +28,19 @@
 }
 
 #appExtension {
-  background-image: url("../images/banner/share_extension_shadow.png");
-  background-position: center 27px;
+  background-image:
+    url("../images/banner/share_extension_shadow.png"),
+    linear-gradient(-180deg, #D3DCE5 0%, #E2EBF4 100%);
+  background-position: center 27px, 0 0;
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 85%, 100%;
   background-color: #D5DEE7;
 }
 
 #gifs {
   background-image: 
     url("../images/banner/gifs_shadow.png"),
-    linear-gradient(-180deg, #F3DBE5 0%, #F8D2CA 100%);
+    linear-gradient(-180deg, #F6D4D1 0%, #FBE8E3 100%);
   background-position: center 27px, 0 0;
   background-repeat: no-repeat;
   background-size: 85%, 100%;

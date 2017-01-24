@@ -15,7 +15,7 @@
     url('../images/banner/gifs.png'),
     url('../images/projects/dark_back_shadow.png'),
     url('../images/projects/dark_back_shadow.png'),
-    linear-gradient(-180deg, #E8C6D4 0%, #F8D2CA 100%);
+    linear-gradient(-180deg, #F5D7DA 0%, #F7D2CA 100%);
   background-size: 290px, 440px, 440px, 100%;
   background-position: 82% 30px, 85% bottom, 110% bottom, top;
 }
