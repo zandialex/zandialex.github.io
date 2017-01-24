@@ -20,6 +20,20 @@
   background-position: 82% 30px, 85% bottom, 110% bottom, top;
 }
 
+/*.banner--share_extension {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: 
+    url('../images/banner/gifs_icon.png'),
+    url('../images/projects/dark_back_shadow.png'),
+    url('../images/projects/dark_back_shadow.png'),
+    linear-gradient(-180deg, #E8C6D4 0%, #F8D2CA 100%);
+  background-size: 360px, 440px, 440px, 100%;
+  background-position: 82% 30px, 85% bottom, 110% bottom, top;
+}*/
+
 .banner--share_extension h2,
 .banner--share_extension h3 {
   margin-bottom: 6px;
