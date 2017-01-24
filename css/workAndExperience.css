@@ -28,7 +28,7 @@
 }
 
 #appExtension {
-  background-image: url("../images/projects/extension.png");
+  background-image: url("../images/banner/share_extension_shadow.png");
   background-position: center 27px;
   background-repeat: no-repeat;
   background-size: 85%;
@@ -36,7 +36,7 @@
 }
 
 #gifs {
-  background-image: url("../images/projects/gifs.png");
+  background-image: url("../images/banner/gifs_shadow.png");
   background-position: center 27px;
   background-repeat: no-repeat;
   background-size: 85%;
