@@ -90,6 +90,13 @@
   background-position: 0 50%;
 }
 
+.dribbble {
+  background-image: url("../ui/contact_links/dribbble.png");
+  background-size: 100%;
+  width: 31px;
+  background-position: 0 calc(50% + 3px);
+}
+
 .verticalBorder {
   width: 1px;
   height: 100%;
