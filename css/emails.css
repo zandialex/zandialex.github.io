@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-image: 
     url('../images/banner/emails.png'),
-    linear-gradient(-179deg, #C09D9D 3%, #EED7D6 100%);
+    linear-gradient(-180deg, #C7B6B6 0%, #EFE2E2 100%);
   background-size: 390px, 100%;
   background-position: 90% bottom, 110% bottom, top;
 }
