@@ -39,12 +39,11 @@
 
 #gifs {
   background-image: 
-    url("../images/banner/gifs_shadow.png"),
-    linear-gradient(-180deg, #F7DCDA 0%, #F7E5E2 100%);
+    url("../images/banner/gifs_shadow.png");
   background-position: center 27px, 0 0;
   background-repeat: no-repeat;
   background-size: 85%, 100%;
-  background-color: #F5D5C1;
+  background-color: #F5DED7;
 }
 
 #emails {
