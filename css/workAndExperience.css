@@ -72,10 +72,12 @@
 }
 
 #glance {
-  background-image: url("../images/projects/glance_black.png");
-  background-position: center 27px;
+  background-image:
+    url("../images/projects/glance_black.png"),
+    linear-gradient(-180deg, #AEABB3 0%, #D0D0D9 100%);
+  background-position: center 27px, 0 0;
   background-repeat: no-repeat;
-  background-size: 85%;
+  background-size: 85%, 100%;
   background-color: #B0B0B3;
 }
 
