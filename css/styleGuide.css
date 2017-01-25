@@ -431,6 +431,10 @@ br + small {
   background-color: linear-gradient(-180deg, #B6C6D4 0%, #D5DEE7 100%);
 }
 
+.no_shadow {
+  box-shadow: none;
+}
+
 .island {
   background-color: #EBE8E4;
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
