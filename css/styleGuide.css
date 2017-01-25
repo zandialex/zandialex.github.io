@@ -528,6 +528,14 @@ small {
   background-repeat: no-repeat;
 }
 
+.forward_chevron_gray {
+  padding-left: 18px;
+  background-image: url('../ui/gray_back_chevron.png');
+  background-size: 9px;
+  background-position: 1px center;
+  background-repeat: no-repeat;
+}
+
 .u-t1 {
   margin-top: 6px;
 }

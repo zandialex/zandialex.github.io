@@ -12,12 +12,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-image: 
-    url('../images/banner/share_extension.png'),
-    url('../images/projects/dark_back_shadow.png'),
-    url('../images/projects/dark_back_shadow.png'),
-    linear-gradient(-180deg, #CDC6BE 0%, #E1DCD7 100%);
-  background-size: 290px, 440px, 440px, 100%;
-  background-position: 82% 30px, 85% bottom, 110% bottom, top;
+    url('../images/banner/share_logo_2.png'),
+    linear-gradient(-180deg, #B4B7C1 0%, #D5D7E1 100%);
+  background-size: 350px, 100%;
+  background-position: calc(50% + 100px) center, top;
 }
 
 .banner--share_extension h2,
