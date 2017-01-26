@@ -14,10 +14,9 @@
   background-image: 
     url('../images/banner/share_extension.png'),
     url('../images/projects/dark_back_shadow.png'),
-    url('../images/projects/dark_back_shadow.png'),
-    linear-gradient(-180deg, #9DACBB 0%, #E2EBF4 100%);
-  background-size: 290px, 440px, 440px, 100%;
-  background-position: 82% 30px, 85% bottom, 110% bottom, top;
+    url('../images/projects/dark_back_shadow.png');
+  background-size: 290px, 440px, 440px;
+  background-position: 82% 30px, 85% bottom, 110% bottom;
 }
 
 .banner--share_extension h2,
@@ -40,7 +39,7 @@
 .nextPage {
   background-image: 
     url('../images/banner/small_gifs.png'),
-    linear-gradient(-180deg, #ECC8B0 0%, #ECD4C5 100%);
+    linear-gradient(-180deg, #E0C1BE 0%, #F5E3DF 100%);
   background-position: 70% 50%;
   background-size: 380px , 100%;
 }
