@@ -633,7 +633,7 @@ small {
   opacity: 0.6;
 }
 
-.email {
+.email-icon {
   background-image: url("../images/email.png");
   background-size: 100%;
   width: 48px;
@@ -641,21 +641,21 @@ small {
   margin-right: 50px;
 }
 
-.twitter {
+.twitter-icon {
   background-image: url("../images/twitter.png");
   background-size: 100%;
   width: 35px;
   background-position: 0 50%;
 }
 
-.linkedin {
+.linkedin-icon {
   background-image: url("../images/linkedin.png");
   background-size: 100%;
   width: 31px;
   background-position: 0 50%;
 }
 
-.dribbble {
+.dribbble-icon {
   background-image: url("../ui/contact_links/dribbble.png");
   background-size: 100%;
   width: 31px;
