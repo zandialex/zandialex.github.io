@@ -44,5 +44,11 @@
 }
 
 .nextPage p {
-  color: rgba(255, 244, 230, 0.95);
+  color: #DACDC0;
+}
+
+.nextPage {
+  background-image: url("../images/banner/san_francisco_dark.png");
+  background-size: cover;
+  background-position: 0 50%;
 }
