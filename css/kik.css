@@ -47,7 +47,7 @@
 
 .workPiece.gifs {
   background-image: 
-    url("../images/projects/gifs.png"),
+    url("../images/banner/gifs_sets.png"),
     url("../images/projects/back_shadow.png"),
     url("../images/projects/back_shadow.png");
   background-position: calc(0% + 150px) 30px, 10px bottom, 160px bottom;
