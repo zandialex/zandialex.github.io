@@ -163,6 +163,10 @@ a:hover {
   margin-bottom: 45px;
 }
 
+h1 + .subtitle {
+  margin-top: 0;
+}
+
 .subtitle {
   font-weight: 500;
   margin-top: 6px;
@@ -183,7 +187,7 @@ ul p, li p {
 }
 
 h1, h2, h3, span {
-  color: #757575;
+  color: #8E8E8E;
   margin: 0;
 }
 
@@ -198,6 +202,10 @@ body {
 
 li {
   margin: 8px 0;
+}
+
+.dark_title {
+  color: #676767;
 }
 
 .sub_info {
@@ -350,6 +358,8 @@ ol.circles li {
   bottom: 20px;
   width: 100%;
 }
+
+
 
 .hoverBlock {
   transition: transform .2s ease-in-out, box-shadow .2s ease-in-out;
