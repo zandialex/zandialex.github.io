@@ -15,12 +15,12 @@
 
 #kik {
   float: left;
-  width: calc(50% - 15px);
-  background-color: white;
-  background-image: url("https://dl.dropboxusercontent.com/u/2311446/kik.png");
-  background-position: calc(50% + 6px) calc(50% - 15px);
-  background-size: 135px;
-  background-repeat: no-repeat;
+    width: calc(50% - 15px);
+    background-color: white;
+    background-image: url("../images/banner/kik_background2.png"), url("https://dl.dropboxusercontent.com/u/2311446/kik.png");
+    background-position: center center, calc(50% + 6px) calc(50% - 15px);
+    background-size: 100%, 135px;
+    background-repeat: no-repeat;
 }
 
 #kik .subTitle {
