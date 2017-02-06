@@ -624,6 +624,10 @@ small {
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.07);
 }
 
+#about .contactLinks {
+  left: 0;
+}
+
 .contactLinks {
   height: 40px;
   width: 245px;
