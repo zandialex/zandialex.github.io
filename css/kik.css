@@ -13,6 +13,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  background-color: rgba(1,1,1,0.8);
 }
 
 #banner img {
@@ -34,7 +35,7 @@
 
 .workPiece.iosExtension {
   background-image:
-    url("../images/projects/extension.png"),
+    url("../images/projects/extension_small.png"),
     url("../images/projects/back_shadow.png"),
     url("../images/projects/back_shadow.png");
   background-position: calc(100% - 150px) 30px, calc(95% - 120px) bottom, calc(95% + 20px) bottom;
