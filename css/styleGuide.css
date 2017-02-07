@@ -457,6 +457,22 @@ br + small {
   width: 84%;
 }
 
+.iphone_7_black {
+  height: 531px;
+  width: 253px;
+  background-image: url("../images/devices/iphone_7_black.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+
+.iphone_7_black video {
+  margin-top: 26.2%;
+  margin-left: 6.45%;
+  width: 87%;
+}
+
+
 .blue_banner {
   /*background-color: #62BCF5;*/
   background-color: linear-gradient(-180deg, #B6C6D4 0%, #D5DEE7 100%);
