@@ -24,7 +24,7 @@
 
 
 
-* { margin: 0, padding: 0; font-family:-apple-system, "Helvetica Neue", sans-serif; color: #969696; -webkit-font-smoothing: antialiased;}
+* { margin: 0, padding: 0; font-family:-apple-system, "Helvetica Neue", sans-serif; color: #8B8B8B; -webkit-font-smoothing: antialiased;}
 
 a {
   text-decoration: none;
@@ -179,7 +179,7 @@ p {
 }
 
 p, strong, small {
-  color: #969696;
+  color: #8B8B8B;
 }
 
 ul p, li p {
