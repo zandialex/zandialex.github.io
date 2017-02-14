@@ -47,12 +47,12 @@
 
 #emails {
   background-image:
-    url("../images/banner/emails_long.png"),
+    url("../images/banner/email_home.png"),
     linear-gradient(-180deg, #D5C8C8 0%, #EFE2E2 100%);
   background-position: center 35px, 0 0;
   background-repeat: no-repeat;
-  background-size: 85%, 100%;
-  background-color: #DED2D2;  
+  background-size: 70%, 100%;
+  background-color: #E2CFCF;  
 }
 
 #other {
@@ -75,9 +75,9 @@
   background-image:
     url("../images/projects/glance_black.png"),
     linear-gradient(-180deg, #AEABB3 0%, #D0D0D9 100%);
-  background-position: center 27px, 0 0;
+  background-position: center 35px, 0 0;
   background-repeat: no-repeat;
-  background-size: 85%, 100%;
+  background-size: 82%, 100%;
   background-color: #B0B0B3;
 }
 
