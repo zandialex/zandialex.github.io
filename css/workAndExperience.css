@@ -47,11 +47,11 @@
 
 #emails {
   background-image:
-    url("../images/banner/email_home.png"),
-    linear-gradient(-180deg, #D5C8C8 0%, #EFE2E2 100%);
-  background-position: center 35px, 0 0;
+    url("../images/banner/email_home.png");
+    /*linear-gradient(-180deg, #D5C8C8 0%, #EFE2E2 100%);*/
+  background-position: center 35px;
   background-repeat: no-repeat;
-  background-size: 70%, 100%;
+  background-size: 70%;
   background-color: #E2CFCF;  
 }
 
