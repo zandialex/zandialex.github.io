@@ -36,6 +36,10 @@ a:hover {
   color: #71B2F9;
 }
 
+.no_hover:hover {
+  color: #F9F6F3;
+}
+
 .blue_link {
   color: #71B2F9;
   display: inline-block;

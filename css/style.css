@@ -53,9 +53,11 @@
 
 .contactLinks {
   height: 40px;
-  width: 480px;
+  width: 255px;
   margin-top: 25px;
   margin-bottom: 45px;
+  display: inline-block;
+  float: left;
 }
 
 .contactLinks a {
@@ -99,9 +101,11 @@
 
 .verticalBorder {
   width: 1px;
-  height: 100%;
-  background-color: #E2DDD8;
-  margin-right: 30px;
+  height: 45px;
+  background-color: #D8D3CE;
+  margin-right: 32px;
+  margin-left: -4px;
+  margin-top: 24px;
   float: left;
 }
 
@@ -110,6 +114,16 @@
   border-radius: 100px;
   padding: 0 20px 0 20px;
   color: #F9F6F3;
+}
+
+.see_resume {
+  display: inline-block;
+  float: left;
+  margin-top: 33px;
+  background-color: #AAA8A7;
+  border-radius: 4px;
+  color: #F9F6F3;
+  padding: 4px 10px 6px 10px;
 }
 
 
