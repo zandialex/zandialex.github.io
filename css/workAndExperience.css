@@ -60,7 +60,7 @@
   background-position: center 35px;
   background-repeat: no-repeat;
   background-size: 70%;
-  background-color: #E6C9C9;  
+  background-color: #E6C5C5;  
 }
 
 #other {
@@ -81,12 +81,11 @@
 
 #glance {
   background-image:
-    url("../images/projects/glance_black.png"),
-    linear-gradient(-180deg, #AEABB3 0%, #D0D0D9 100%);
+    url("../images/projects/glance_black.png");
   background-position: center 35px, 0 0;
   background-repeat: no-repeat;
   background-size: 82%, 100%;
-  background-color: #B0B0B3;
+  background-color: #BEBCC5;
 }
 
 #dribbble {
