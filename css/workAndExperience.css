@@ -11,6 +11,10 @@
 
 #yelp .subTitle {
   color: #FAE0E0;
+  background-size: 9px;
+  background-image: url("../ui/yelp_chevron_forward.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 103px) 3px;
 }
 
 #kik {
@@ -25,6 +29,10 @@
 
 #kik .subTitle {
   color: #C9C7C4;
+  background-size: 9px;
+  background-image: url("../ui/kik_chevron_forward.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 80px) 3px;
 }
 
 #appExtension {
