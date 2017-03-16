@@ -32,7 +32,7 @@
 }
 
 .workPiece.msite {
-  background-image: url("../images/projects/msite_gold.png"), url("../images/projects/back_shadow.png"), url("../images/projects/back_shadow.png");
+  background-image: url("../images/projects/msite_silver.png"), url("../images/projects/back_shadow.png"), url("../images/projects/back_shadow.png");
   background-position: calc(95% - 120px) 30px, calc(70% - 65px) bottom, calc(116% - 170px) bottom;
   background-size: 290px, 290px;
   background-repeat: no-repeat;
