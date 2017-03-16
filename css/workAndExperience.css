@@ -72,7 +72,7 @@
 }
 
 #shareLogo {
-  background-image: url("../images/icons/kiklogo.png");
+  background-image: url("../images/logos/kiklogo.png");
   background-position: 50% calc(50% + 6px);
   background-repeat: no-repeat;
   background-size: 72%;
