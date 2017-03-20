@@ -29,7 +29,7 @@ $(window).scroll(function(){
 
   if (!isSafari) {
     if (scrollPos > 2) {
-      $("#nav").css("box-shadow", "0px 1px 10px 0px rgba(0,0,0,0.04), 0px 1px 0px 0px rgba(0,0,0,0.03)");
+      $("#nav").css("box-shadow", "0px 1px 40px 0px rgba(0,0,0,0.16), 0px 1px 0px 0px rgba(0,0,0,0.03)");
     }
     else {
       $("#nav").css("box-shadow", "0px 1px 6px 0px rgba(0,0,0,0.0)");
