@@ -67,3 +67,7 @@
 .see_styleguide {
   background-image: url(../images/arrow-down.png);
 }
+
+.chevron {
+  background-image: url("../ui/yelp_read_more_chevron.png");
+}
