@@ -54,8 +54,4 @@
 
 .chevron {
   background-image: url("../ui/yelp_read_more_chevron.png");
-  background-size: 8px;
-  background-repeat: no-repeat;
-  background-position: 95px 6px;
-}
 }

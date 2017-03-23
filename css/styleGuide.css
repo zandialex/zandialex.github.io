@@ -591,6 +591,12 @@ small {
   background-repeat: no-repeat;
 }
 
+.nextPage .chevron {
+  background-size: 8px;
+  background-repeat: no-repeat;
+  background-position: 95px 6px;
+}
+
 .u-t1 {
   margin-top: 6px;
 }
