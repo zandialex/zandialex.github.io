@@ -40,6 +40,14 @@
   margin-right: -120px;
 }
 
+.workPiece.contributions {
+  background-image: url("../images/projects/contributions/contributions.png");
+  background-position: center bottom;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  height: 385px;
+}
+
 .workPiece.header {
   background-image: url("../images/projects/header_3.png");
   background-position: center 160px;
