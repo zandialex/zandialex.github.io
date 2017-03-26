@@ -65,10 +65,12 @@
 }
 
 .workPiece.email {
-  background-image: url("../images/faded_divider_left.png"), url("../images/projects/email_no_shadow.png"), url("../images/projects/back_shadow.png");
-  background-position: calc(43px) bottom, 92px top, -26px bottom;
-  background-size: 432px,290px, 553px;
+  background-image: url("../images/faded_divider_right.png"), url("../images/projects/email_no_shadow.png"), url("../images/projects/back_shadow.png");
+  background-position: calc(100% - 40px) bottom, calc(100% - 92px) top, 474px bottom;
+  background-size: 432px,290px, 433px;
   background-repeat: no-repeat;
   padding-left: 60px;
   margin-left: -60px;
+  padding-right: 60px;
+  margin-right: -60px;
 }
