@@ -31,6 +31,15 @@
   background-image: url("../images/banner/kik_team_dark.png");
 }
 
+.workPiece.yelp_styleguide {
+  background-image: url("../images/projects/yelp_styleguide_ui.png");
+  background-position: left center;
+  background-size: 290px, 290px;
+  background-repeat: no-repeat;
+  padding-right: 120px;
+  margin-right: -120px;
+}
+
 .workPiece.msite {
   background-image: url("../images/projects/msite_silver.png"), url("../images/projects/back_shadow.png"), url("../images/projects/back_shadow.png");
   background-position: calc(95% - 120px) 30px, calc(70% - 65px) bottom, calc(116% - 170px) bottom;
