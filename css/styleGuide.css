@@ -113,6 +113,11 @@ a:hover {
   background-color: #F9F6F3;
 }
 
+#header {
+  height: 340px;
+  margin-top: 67px;
+}
+
 #nav #openNav {
   display: none;
 }
