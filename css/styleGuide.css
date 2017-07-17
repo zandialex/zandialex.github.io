@@ -196,7 +196,8 @@ ul p, li p {
 }
 
 h1, h2, h3, span {
-  color: #797979;
+  /*color: #797979;*/
+  color: #656565;
   margin: 0;
 }
 
@@ -211,6 +212,16 @@ body {
 
 li {
   margin: 5px 0;
+}
+
+.two.columns {
+  width: calc(50% - 44px);
+  float: left;
+  margin-right: 44px;
+}
+
+.row {
+  height: 250px;
 }
 
 .dark_title {
@@ -653,6 +664,11 @@ small {
 
 .u-img-photo {
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.07);
+}
+
+.strike-out {
+  text-decoration: line-through;
+  opacity: 0.45;
 }
 
 #about .contactLinks {
