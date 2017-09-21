@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Alex Z, Product Designer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body class="project">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="nav">
+    <div class="links">
+      <div>
+        <a href="../index.html" class="light-gray">Home</a>
+        <a href="#" class="title">Share Extension</a>
+      </div>
+      <div>
+        <a href="mailto:azandi@uwaterloo.ca?" class="light-gray" target="_top">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container project">
+
+    <div class="row">
+      <div class="intro one block">
+        <div class="v-align u-space-l9">
+          <h1>iOS Share Extension</h1>
+          <p class="light-gray">Making Sharing Easy</span></p>
+        </div>
+        <img src="../images/extension.png" class="iphone two">
+      </div>
+    </div>
+
+    <h2>Context</h2>
+    <p>Since I was part of the “content team” during my internship at Kik, I led the design of the first iOS share extension. The main goal being to ease content sharing of content like links, articles, photos, and videos from other apps. The UI focussed on keeping a delicate balance between branding and also feeling at home on iOS.</p>
+
+    <h2>The Problem</h2>
+    <p>There was no easy way to share content found outside the app. Althought users were able to copy and paste links into Kik, the current experience had lots of friction. </p>
+
+    <h2>Setting Constraints</h2>
+    <p>Since my PM was also an engineer, brainstorming with him was easy because we could easily determine what was possible in our current time frame. We came up with ideas for what we could include, then eliminated options we didn't think were feasible.</p>
+
+    <div class="row">
+      <div class="six columns">
+        <h3>Feature Ideas</h3>
+        <ul>
+          <li>Attachment previews (not just a text url)</li>
+          <li>Multiple attachments</li>
+          <li>User search</li>
+          <li>Group search</li>
+          <li>Send to multiple users</li>
+          <li>Send to multiple groups</li>
+          <li>User profile photos</li>
+        </ul>
+      </div>
+      <div class="six columns">
+        <h3>Chosen For Development</h3>
+        <ul>
+          <li>Attachment previews (not just a text url)</li>
+          <li class="strike-out">Multiple attachments</li>
+          <li>User search</li>
+          <li>Group search</li>
+          <li class="strike-out">Send to multiple users</li>
+          <li class="strike-out">Send to multiple groups</li>
+          <li>User profile photos</li>
+        </ul>
+      </div>
+    </div>
+
+    <p>We were rolling out new bubble previews in the app too, so ideally this project would work well with them.</p>
+    <img src="../images/kik/extension/bubbles_1.png" class="u-img-center u-remove-style" width="90%">
+
+    <h2>Goals</h2>
+    <p>The goals for this feature were to provide an easy and intuitive way to share content to conversations from outside the Kik app. Ideally by creating an experience that feels at home on iOS, and isn't any more complicated than necessary.</p>
+
+    <h2>Iterations</h2>
+    <p>After discussing the goals and constraints with my product manager I iterated through many ideas that mostly ended up looking like the main Kik app shrunk in a share extension.</p>
+
+    <div class="row">
+      <div class="six columns">
+        <img src="../images/kik/extension/extension_it1_r.png" class="u-full-width u-300-height">
+      </div>
+      <div class="six columns">
+        <img src="../images/kik/extension/extension_it1_c.png" class="u-full-width u-300-height">
+      </div>
+    </div>
+
+    <h2>Not a Mini-app</h2>
+    <p>I later realized after reading the Apple Human Interface Guidelines that these designs are probably too complicated for an iOS app extension. An engineer on my team also pointed out this issue.</p>
+    <p class="quote">“An extension isn’t a mini-app. It performs a narrowly scoped task related to the current context.” - Apple Human Interface Guidelines</p>
+    <p>So I reworked the design to make it more appropriate. I removed the chat history and experimented with making the extension as simple as possible. My designs ended up looking similar to a typical share extension.</p>
+
+    <div style="text-align: center"><img src="../images/kik/extension/extension_it1_c.png" class="u-full-width u-300-height"></div>
+
+    <h3>Room for Improvement</h3>
+
+    <p>
+    1. People share the same attachment with a different message depending on the person. A UI that encourages users to write a message before choosing a recipient would result in more generic and <strong>less personal messages.</strong>
+    </p>
+
+    <p>2. Articles and links would need more space when released later on. This design made it feel a bit squished.</p>
+
+    <h2>Friends</h2>
+    <p>Next I experimented with a design that focused on friends.</p>
+
+    <div style="text-align: center"><img src="../images/kik/extension/extension_it3_f.png" class="u-full-width u-300-height"></div>
+
+    <h3>Room for Improvement</h3>
+    <p>1. Lots of people on Kik don’t have profile photos, so lots of focus shifts to names to distinguish users.</p>
+
+    <p>2. Names couldn't completely fit, this was especially a problem with group chats.</p>
+
+    <h2>Final Product</h2>
+    <p>Eventually I landed with the design below. You see your recents and are proceeded by a page to write your message and confirm the content you're about to send.</p>
+
+    <div class="row">
+      <div class="six columns">
+          <img src="../images/kik/extension/extension_final_r.png" class="u-full-width u-300-height">
+      </div>
+      <div class="six columns">
+          <img src="../images/kik/extension/extension_final_a.png" class="u-full-width u-300-height">
+      </div>
+    </div>
+
+    <p>This design allowed us to really take advantage of our bubble previews.</p>
+    <div style="text-align: center"><img src="../images/kik/extension/bubble_display.png" class="u-img-center u-remove-style" width="100%"></div>
+
+    <h3>Prototype</h3>
+    <p>Here's a prototype of the final design, it was made with Framer.</p>
+
+    <video controls loop style="width: 40%;" class="u-img-center">
+      <source src="../videos/kik/extension/extension.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div id="footer"></div>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script type="text/javascript" src="../js/project_nav.js"></script>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
