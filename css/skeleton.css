@@ -1125,7 +1125,7 @@ small {
 /* Project
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.project h1:first-child {
+.project .one h1:first-child {
   /*margin-top: 66px;*/
   margin-top: 120px;
   /*margin-bottom: 16px;*/
