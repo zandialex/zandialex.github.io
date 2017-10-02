@@ -425,7 +425,7 @@ ul {
 }
 
 p + h3 {
-  margin-top: 39px;
+  margin-top: 50px;
 }
 
 p.large {
@@ -1125,7 +1125,7 @@ small {
 /* Project
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.project.no_banner h1:first-child {  
+.project.no_banner h1:first-child {
   /*margin-top: 66px;*/
   margin-top: 120px;
   /*margin-bottom: 16px;*/
