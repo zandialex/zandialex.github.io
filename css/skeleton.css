@@ -859,6 +859,22 @@ a.project .right-col {
   background-size: 355px;
 }
 
+/*ads*/
+#ads.left .right-col,
+#ads.right .left-col {
+  background-image: url("../images/yelp/ads/home.png");
+}
+
+#ads.left .right-col {
+  background-position: left 45px;
+  background-size: 345px;
+}
+
+#ads.right .left-col {
+  background-position: right 45px;
+  background-size: 355px;
+}
+
 /*yelp mobile site image*/
 #mobile-site.left .right-col,
 #mobile-site.right .left-col {
