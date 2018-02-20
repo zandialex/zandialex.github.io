@@ -843,6 +843,22 @@ a.project .right-col {
   background-size: 355px;
 }
 
+/*kik share extension on the right*/
+#share.left .right-col,
+#share.right .left-col {
+  background-image: url("../images/kik/extension/home.png");
+}
+
+#share.left .right-col {
+  background-position: left 45px;
+  background-size: 355px;
+}
+
+#share.right .left-col {
+  background-position: right 45px;
+  background-size: 355px;
+}
+
 /*gifs*/
 #glance.left .right-col,
 #glance.right .left-col {
