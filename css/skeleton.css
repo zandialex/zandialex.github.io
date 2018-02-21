@@ -641,7 +641,8 @@ span.med {
   color: #A6A2A0;
   background-color: #FEFCFB;
   z-index: 1;
-  box-shadow: rgba(0, 0, 0, 0.03) 1px 1px 0px, rgba(0, 0, 0, 0.02) 1px 2px 20px;
+  /* box-shadow: rgba(0, 0, 0, 0.03) 1px 1px 0px, rgba(0, 0, 0, 0.06) 1px 2px 20px; */
+  box-shadow: rgba(0, 0, 0, 0.03) 1px 1px 0px, rgba(0, 0, 0, 0.06) 1px 2px 20px;
 }
 
 .nav .links {
