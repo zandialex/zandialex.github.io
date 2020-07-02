@@ -1,0 +1,64 @@
+* {
+  color: red; 
+  margin: 0; 
+  padding: 0;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+
+/*Utilities*/
+
+.centerHorizontally {
+  margin: auto;
+}
+
+.centerVertically {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.centerTextHorizontally {
+  text-align: center
+}
+
+.roundedEdges {
+  border-radius: 25px;
+}
+
+/*Elements*/
+
+#wrapper {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 40px;
+  background-color: green;
+  overflow: auto;
+}
+
+#header {
+  margin: 30px;
+}
+
+#logo {
+  background-color: yellow;
+  height: 60px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.project {
+  background-color: pink;
+  height: 200px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 0 40px 0 40px;
+}
+
+
+
+
+
+
