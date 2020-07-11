@@ -71,6 +71,7 @@ body {
 p {
   font-size: 21px;
   font-weight: normal;
+  opacity: 0.9;
 }
 
 h1 {
@@ -81,6 +82,7 @@ h2 {
   font-size: 21px;
   margin-bottom: 24px;
   margin-bottom: 4vh;
+  opacity: 0.55;
 }
 
 nav {
@@ -128,7 +130,6 @@ nav .links {
 .project h2 {
   font-size: 18px;
   font-weight: normal;
-  opacity: 0.7
 }
 
 
@@ -166,7 +167,6 @@ nav .links {
 #project h2 {
   font-size: 21px;
   font-weight: normal;
-  opacity: 0.7
 }
 
 #project #content {
