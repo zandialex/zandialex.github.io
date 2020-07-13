@@ -35,6 +35,12 @@ body {
   width: 50%;
 }
 
+.positionBottom {
+  position: relative;
+  top: 100%;
+  transform: translateY(-150%);
+}
+
 .centerHorizontally {
   margin: auto;
 }
@@ -92,7 +98,7 @@ body {
 
 img {
   border-radius: 9px;
-  margin: auto;
+  /*margin: auto;*/
   display: block;
   width: 80%;
 }
@@ -165,12 +171,19 @@ nav .links {
 }
 
 .project h1 {
-  font-size: 29px;
+  font-size: 30px;
 }
 
 .project h2 {
   font-size: 18px;
   font-weight: normal;
+}
+
+.contentDivider {
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.7;
 }
 
 
@@ -268,8 +281,43 @@ nav .links {
 
 /*Screen Size Adjustments*/
 
+/*Medium screen widths*/
+@media screen and (max-width: 750px) {
+  .project .centerVertically {
+    top: 100%;
+    transform: translateY(-150%);
+  }
+}
+
 /*Small screen widths*/
 @media screen and (max-width: 500px) {
+
+  /*Home page*/
+
+  .project .centerVertically {
+    top: 100%;
+    transform: translateY(-150%);
+  }
+
+  #home #wrapper {
+    width: 100%;
+  }
+
+  .project {
+    border-radius: 0;
+    padding: 0 30px 0 30px;
+  }
+
+  .project h1 {
+    /*font-size: 24px;*/
+  }
+
+  #home p {
+    padding: 0 30px 0 30px;
+  }
+
+  /*Project page*/
+
   body {
     /*background-color: blue;*/
   }

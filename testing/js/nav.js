@@ -1,3 +1,5 @@
+$("nav").removeClass("blackTransparentGradient")
+
 $(window).scroll(function(){
   var scrollPos = $(this).scrollTop();
   var contentPos = $("#content").offset().top
