@@ -290,6 +290,11 @@ nav .links {
     background: green;
   }
 
+  .mainTitle.centerVertically {
+    top: 100%;
+    transform: translateY(-150%);
+  }
+
   #project .mainTitle h1 {
     font-size: 33px;
   }
