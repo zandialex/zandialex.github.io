@@ -20,7 +20,19 @@ body {
 /*Utilities*/
 
 .fullHeight {
-  height: 100%
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.eightyWidth {
+  width: 80%;
+}
+
+.halfWidth {
+  width: 50%;
 }
 
 .centerHorizontally {
@@ -78,8 +90,16 @@ body {
   margin: 60px;
 }
 
+img {
+  border-radius: 9px;
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
 p {
   font-size: 21px;
+  margin-bottom: 24px;
   font-weight: normal;
   opacity: 0.9;
 }
@@ -104,6 +124,13 @@ nav {
 
 nav a {
   float: right;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+nav a:first-child {
+  float: left;
+  opacity: 1;
 }
 
 nav #wrapper {
@@ -114,11 +141,6 @@ nav #wrapper {
 nav .logo {
   width: 130px;
   height: 100%;
-}
-
-nav a:first-child {
-  float: left;
-  background-image: 
 }
 
 nav .links {
@@ -166,6 +188,7 @@ nav .links {
 
 #project #header h1 {
   font-size: 40px;
+  margin-top: 0;
 }
 
 #project #header h2 {
@@ -176,6 +199,12 @@ nav .links {
 
 #project h1 {
   font-size: 30px;
+  margin-top: 10vh;
+}
+
+#project h1:first-child {
+  font-size: 30px;
+  margin-top: 0;
 }
 
 #project h2 {
@@ -189,7 +218,7 @@ nav .links {
 }
 
 #project #content p {
-  margin-bottom: 10vh;
+  /*margin-bottom: 10vh;*/
 }
 
 
@@ -234,3 +263,16 @@ nav .links {
  #kik h1, #kik h2 {
   color: white;
  }
+
+
+ /*Screen Size Adjustments*/
+
+ @media screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
+
+  img {
+    width: 100%;
+  }
+}
