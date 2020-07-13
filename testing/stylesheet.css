@@ -272,10 +272,12 @@ nav .links {
     background-color: blue;
   }
 
-  #header .centerVertically {
+  .mainTitle.centerVertically {
     top: 100%;
     transform: translateY(-150%);
   }
+
+  #
 
   top: 100%;
 transform: translateY(-150%);
