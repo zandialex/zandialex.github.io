@@ -272,6 +272,14 @@ nav .links {
     background-color: blue;
   }
 
+  #header .centerVertically {
+    top: 100%;
+    transform: translateY(-150%);
+  }
+
+  top: 100%;
+transform: translateY(-150%);
+
   img {
     width: 100%;
   }
