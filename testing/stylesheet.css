@@ -271,7 +271,7 @@ nav .links {
 /*Small screen widths*/
 @media screen and (max-width: 500px) {
   body {
-    background-color: blue;
+    /*background-color: blue;*/
   }
 
   .mainTitle.centerVertically {
@@ -285,9 +285,9 @@ nav .links {
 }
 
 /*Small screen heights*/
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 460px) {
   body {
-    background: green;
+    /*background: green;*/
   }
 
   .mainTitle.centerVertically {
@@ -303,7 +303,22 @@ nav .links {
     font-size: 21px;
   }
 
-  #project .mainTitle {
-    text-align: center;
+  #project h1 {
+    font-size: 24px;
+    margin-top: 10vh;
   }
+
+  #project #content h1:first-child {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  #project h2 {
+    font-size: 21px;
+    font-weight: normal;
+  }
+
+  /*#project .mainTitle {
+    text-align: center;
+  }*/
 }
