@@ -176,12 +176,12 @@ nav .links {
 
 .project {
   background-color: pink;
-  height: 260px;
+  height: 300px;
   width: 100%;
   border-radius: 24px;
   padding: 0 50px 0 50px;
   box-shadow: inset 0 -5px 40px 0 rgba(0,0,0,0.10);
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .project h1 {
@@ -191,6 +191,7 @@ nav .links {
 .project h2 {
   font-size: 18px;
   font-weight: normal;
+  width: 80%;
 }
 
 .contentDivider {
@@ -262,7 +263,7 @@ nav .links {
 /*Individual Project Styles*/
 
 #glance {
-  background-color: gray
+  background-color: rgb(126, 129, 143);
 }
 
 #glance h1, #glance h2 {
@@ -329,6 +330,7 @@ nav .links {
   .project {
     border-radius: 0;
     padding: 0 30px 0 30px;
+    margin-top: 8px;
   }
 
   .project h1 {
