@@ -10,6 +10,7 @@
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  text-shadow: 0px 1.5px 3px rgba(0, 0, 0, 0.12);
 }
 
 body {
@@ -17,6 +18,30 @@ body {
   background-color: #0f0f0f;
 }
 
+
+/*Light Mode*/
+
+body.lightMode {
+  background-color: #a0a5a7;
+}
+
+.lightMode .logoSVG path {
+  fill: white;
+}
+
+.lightMode .project {
+  box-shadow: none;
+}
+
+.lightMode .project {
+  background-color: rgba(255, 255, 255, 0.27);
+  background-color: rgba(0, 0, 0, 0.15);
+  /*box-shadow: inset 0 -5px 110px 0 rgba(255, 255, 255, 0.29);*/
+}
+
+.lightMode #frames * {
+  text-shadow: none;
+}
 
 /*Utilities*/
 
@@ -132,7 +157,7 @@ h2 {
   font-size: 21px;
   margin-bottom: 24px;
   /*margin-bottom: 4vh;*/
-  opacity: 0.55;
+  opacity: 0.85;
 }
 
 nav {
@@ -168,19 +193,29 @@ nav .links {
 }
 
 .logo {
-  background-image: url("images/logo.png");
+  /*background-image: url("images/logo.png");*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
+.logoSVG {
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.05))
+}
+
+.logoSVG path {
+  fill: white;
+}
+
 .project {
-  background-color: pink;
+  /*background-color: rgb(41, 41, 41);*/
+  background-color: rgba(255, 255, 255, 0.27);
   height: 300px;
   width: 100%;
-  border-radius: 24px;
+  border-radius: 16px;
   padding: 0 50px 0 50px;
-  box-shadow: inset 0 -5px 40px 0 rgba(0,0,0,0.10);
+  /*box-shadow: inset 0 -5px 40px 0 rgba(0,0,0,0.10);*/
+
   margin-top: 12px;
 }
 
@@ -217,7 +252,7 @@ nav .links {
   height: 75vh;
   max-height: 520px;
   min-height: 300px;
-  background: gray;
+  background: linear-gradient(rgb(151, 155, 160) 42.02%, rgba(196, 195, 189, 1));
 }
 
 #project #header {
@@ -263,7 +298,8 @@ nav .links {
 /*Individual Project Styles*/
 
 #glance {
-  background-color: rgb(126, 129, 143);
+  /*background-image: linear-gradient(rgb(151, 155, 160) 42.02%, rgba(196, 195, 189, 1));*/
+  /*background-image: linear-gradient(rgb(205, 217, 224), rgba(194, 193, 189, 1));*/
 }
 
 #glance h1, #glance h2 {
@@ -271,7 +307,9 @@ nav .links {
 }
 
 #frames {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.12);
   background-color: white;
+  background-image: linear-gradient(rgb(199, 198, 197), rgba(255, 255, 255, 1) 78.57%);
 }
 
 #frames h1, #frames h2 {
@@ -307,9 +345,14 @@ nav .links {
 
 /*Medium screen widths*/
 @media screen and (max-width: 750px) {
+
+  #wrapper {
+    width: 90%;
+  }
+
   .project .centerVertically {
     top: 100%;
-    transform: translateY(-150%);
+    transform: translateY(-170%);
   }
 }
 
@@ -330,7 +373,7 @@ nav .links {
   .project {
     border-radius: 0;
     padding: 0 30px 0 30px;
-    margin-top: 8px;
+    margin-top: 6px;
   }
 
   .project h1 {
@@ -361,6 +404,10 @@ nav .links {
 @media screen and (max-height: 460px) {
   body {
     /*background: green;*/
+  }
+
+  #home .project {
+    height: 250px;
   }
 
   .mainTitle.centerVertically {
