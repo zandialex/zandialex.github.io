@@ -29,6 +29,10 @@ body.lightMode {
   fill: white;
 }
 
+.lightMode nav {
+  background-color: rgba(189, 189, 189, 0.3)
+}
+
 .lightMode .project {
   box-shadow: none;
 }
@@ -86,8 +90,8 @@ body.lightMode {
 }
 
 .blurredBackground {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
 .darkMaterial {
@@ -96,6 +100,10 @@ body.lightMode {
 
 .blackTransparentGradient {
   background-image: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.0) 100%);
+}
+
+.shadowBlock {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .hideNav {
@@ -213,6 +221,11 @@ nav .links {
   fill: white;
 }
 
+a.project {
+  display: block;
+  text-decoration: none;
+}
+
 .project {
   /*background-color: rgb(41, 41, 41);*/
   background-color: rgba(226, 230, 237, 0.12);
@@ -223,6 +236,10 @@ nav .links {
   /*box-shadow: inset 0 -5px 40px 0 rgba(0,0,0,0.10);*/
 
   margin-top: 12px;
+}
+
+.project:hover {
+  background-color: rgba(226, 230, 237, 0.22);
 }
 
 .project h1 {
@@ -249,6 +266,17 @@ nav .links {
 #home nav .logo {
   width: 130px;
   height: 100%;
+}
+
+#home .project .skills {
+  position: relative;
+  height: 0;
+  top: 26px;
+  opacity: 0;
+}
+
+#home .project:hover .skills {
+  opacity: 0.4
 }
 
 
@@ -319,7 +347,7 @@ nav .links {
 }
 
 #wish {
-  background-color: blue;
+  background-color: rgba(105, 191, 254, 0.99);
 }
 
  #wish h1, #wish h2 {
@@ -327,7 +355,7 @@ nav .links {
  }
 
  #yelp {
-  background-color: red;
+  background-color: rgb(227, 61, 61);
 }
 
  #yelp h1, #yelp h2 {
@@ -335,18 +363,14 @@ nav .links {
  }
 
 #kik {
-  background-color: green;
+  background-color: white;
 }
-
- #kik h1, #kik h2 {
-  color: white;
- }
 
 
 /*Screen Size Adjustments*/
 
 /*Medium screen widths*/
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
 
   #wrapper {
     width: 90%;

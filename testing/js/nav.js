@@ -20,23 +20,25 @@ $(window).scroll(function(){
   console.log(scrollPos)
 
   if (scrollPos < 5) {
-    console.log("remove classes!!!")
     $("nav").removeClass("blackTransparentGradient")
     $("nav").removeClass("darkMaterial")
     $("nav").removeClass("blurredBackground")
+    $("nav").removeClass("shadowBlock")
   }
 
   else if (scrollPos >= 5 && scrollPos <= contentPos - navHeight - scrollBuffer) {
     $("nav").addClass("blackTransparentGradient")
     $("nav").removeClass("darkMaterial")
     $("nav").removeClass("blurredBackground")
+    $("nav").removeClass("shadowBlock")
   }
 
   // Add a background to the nav bar
   else if (scrollPos > contentPos - navHeight - scrollBuffer) {
     $("nav").removeClass("blackTransparentGradient")
-    $("nav").addClass("darkMaterial");
-    $("nav").addClass("blurredBackground");
+    $("nav").addClass("darkMaterial")
+    $("nav").addClass("blurredBackground")
+    $("nav").addClass("shadowBlock")
   }
 
   // // Remove the background from the nav bar
