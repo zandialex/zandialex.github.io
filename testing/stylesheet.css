@@ -360,7 +360,9 @@ a.project {
   margin-top: 15vh;
 }
 
-#project #content h1:first-child {
+#project #content #wrapper h1:first-child,
+#project .split h1:first-child
+{
   font-size: 30px;
   margin-top: 0;
 }
