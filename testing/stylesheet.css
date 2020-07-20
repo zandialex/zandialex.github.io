@@ -120,6 +120,44 @@ body.lightMode {
 }
 
 
+/*Split*/
+
+.split {
+  height: 200px;
+  margin-top: 15vh;
+}
+
+.split .left *, .split .right * {
+  margin-bottom: 0;
+}
+
+.split .left h1 + *, .split .right h1 + * {
+  margin-top: 12px;
+}
+
+.split .left h1 + p, .split .right h1 + p {
+  opacity: 0.6;
+}
+
+.left, .right {
+  /*height: 100%;*/
+}
+
+.left {
+  /*background: blue;*/
+  float: left;
+  width: 50%;
+  width: calc(50% - 30px)
+}
+
+.right {
+  /*background: red;*/
+  float: right;
+  width: 50%;
+  width: calc(50% - 30px)
+}
+
+
 /*Elements*/
 
 #wrapper {
@@ -151,6 +189,7 @@ body.lightMode {
 img {
   border-radius: 9px;
   /*margin: auto;*/
+  margin-bottom: 24px;
   display: block;
   width: 80%;
 }
@@ -159,7 +198,7 @@ p {
   font-size: 21px;
   margin-bottom: 24px;
   font-weight: normal;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 h1 {
@@ -171,7 +210,7 @@ h2 {
   font-size: 21px;
   margin-bottom: 24px;
   /*margin-bottom: 4vh;*/
-  opacity: 0.85;
+  opacity: 0.6;
 }
 
 nav {
@@ -306,7 +345,7 @@ a.project {
 
 #project h1 {
   font-size: 30px;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 #project #content h1:first-child {
@@ -383,7 +422,7 @@ a.project {
 }
 
 /*Small screen widths*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
 
   /*Home page*/
 
@@ -410,10 +449,53 @@ a.project {
     padding: 0 30px 0 30px;
   }
 
+
   /*Project page*/
 
   body {
     /*background-color: blue;*/
+  }
+
+  .split {
+    height: initial;
+  }
+
+  .split .left, .split .right {
+    width: initial;
+  }
+
+  .split .left *, .split .right *{
+    margin-bottom: 24px;
+  }
+
+  .split .left h1, .split .right h1 {
+    margin-bottom: 8px;
+  }
+
+  .split .right.centerVertically, .split .left.centerVertically {
+    position: initial;
+    top: initial;
+    transform: initial;
+    margin: initial;
+  }
+
+  .split .left .centerHorizontally, .split .right .centerHorizontally  {
+    /*margin: initial;*/
+
+/*    .centerHorizontally {
+  margin: auto;
+}
+
+.centerVertically {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+  }
+
+  .left, .right {
+    float: none;
   }
 
   .mainTitle.centerVertically {
@@ -425,6 +507,7 @@ a.project {
     width: 100%;
   }
 }
+
 
 /*Small screen heights*/
 @media screen and (max-height: 460px) {
@@ -451,7 +534,7 @@ a.project {
 
   #project h1 {
     font-size: 24px;
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
 
   #project #content h1:first-child {
