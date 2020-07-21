@@ -136,9 +136,9 @@ body.lightMode {
   margin-top: 12px;
 }
 
-.split .left h1 + p, .split .right h1 + p {
+/*.split .left h1 + p, .split .right h1 + p {
   opacity: 0.6;
-}
+}*/
 
 .left, .right {
   /*height: 100%;*/
@@ -173,11 +173,12 @@ body.lightMode {
   background: gray;
   padding-bottom: 15vh;
   margin-top: 15vh;
-  background: linear-gradient(rgba(151, 155, 160, 0.05) 0%, rgba(196, 195, 189, 0.15));
+  background: linear-gradient(rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.15));
 }
 
-.wideSection *:last-child {
+#wrapper p:last-child {
   margin-bottom: 0;
+  /*background: red;*/
 }
 
 #home .logo {
@@ -206,11 +207,16 @@ img {
   width: 80%;
 }
 
+p, h2 {
+  line-height: 28px;
+}
+
 p {
   font-size: 21px;
   margin-bottom: 24px;
   font-weight: normal;
-  opacity: 0.85;
+  /*opacity: 0.85;*/
+  opacity: 0.7;
 }
 
 h1 {
@@ -218,9 +224,13 @@ h1 {
   font-weight: 800;
 }
 
+h1 + p {
+  margin-top: 20px;
+}
+
 h2 {
   font-size: 21px;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   /*margin-bottom: 4vh;*/
   opacity: 0.6;
 }
@@ -356,14 +366,15 @@ a.project {
 }
 
 #project h1 {
-  font-size: 30px;
+  /*font-size: 30px;*/
+  font-size: 34px;
   margin-top: 15vh;
 }
 
 #project #content #wrapper h1:first-child,
 #project .split h1:first-child
 {
-  font-size: 30px;
+  /*font-size: 30px;*/
   margin-top: 0;
 }
 
