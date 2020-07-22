@@ -236,6 +236,12 @@ h2 {
   opacity: 0.6;
 }
 
+h3 {
+  font-size: 28px;
+  margin-top: 46px;
+  margin-bottom: 4px;
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -266,6 +272,20 @@ nav .logo {
 
 nav .links {
   float: left;
+}
+
+ol {
+  padding-left: revert;
+  line-height: 28px;
+  margin-top: 16px;
+  font-size: 21px;
+  /* padding-left: 30px; */
+  position: relative;
+  left: -12px;
+}
+
+li {
+  opacity: 0.7;
 }
 
 .logo {
@@ -444,6 +464,38 @@ a.project {
     top: 100%;
     transform: translateY(-170%);
   }
+
+  .split {
+    height: initial;
+  }
+
+  .split .left, .split .right {
+    width: initial;
+  }
+
+  .split .left *, .split .right *{
+    margin-bottom: 24px;
+  }
+
+  .split .left h1, .split .right h1 {
+    margin-bottom: 8px;
+  }
+
+  .split .right.centerVertically, .split .left.centerVertically {
+    position: initial;
+    top: initial;
+    transform: initial;
+    margin: initial;
+  }
+
+  .split .left .centerHorizontally, .split .right .centerHorizontally  {
+    /*margin: initial;*/
+  }
+
+  .left, .right {
+    float: none;
+  }
+  
 }
 
 /*Small screen widths*/
@@ -479,48 +531,6 @@ a.project {
 
   body {
     /*background-color: blue;*/
-  }
-
-  .split {
-    height: initial;
-  }
-
-  .split .left, .split .right {
-    width: initial;
-  }
-
-  .split .left *, .split .right *{
-    margin-bottom: 24px;
-  }
-
-  .split .left h1, .split .right h1 {
-    margin-bottom: 8px;
-  }
-
-  .split .right.centerVertically, .split .left.centerVertically {
-    position: initial;
-    top: initial;
-    transform: initial;
-    margin: initial;
-  }
-
-  .split .left .centerHorizontally, .split .right .centerHorizontally  {
-    /*margin: initial;*/
-
-/*    .centerHorizontally {
-  margin: auto;
-}
-
-.centerVertically {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}*/
-
-  }
-
-  .left, .right {
-    float: none;
   }
 
   .mainTitle.centerVertically {
@@ -563,8 +573,8 @@ a.project {
   }
 
   #project #content h1:first-child {
-    font-size: 24px;
-    margin-top: 0;
+    font-size: 28px;
+    /*margin-top: 0;*/
   }
 
   #project h2 {
