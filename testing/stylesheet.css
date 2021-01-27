@@ -120,6 +120,9 @@ body.lightMode {
   color: black;
 }
 
+.text_align_right {
+	text-align: right;
+}
 
 /*Split*/
 
@@ -309,13 +312,20 @@ a.project {
 }
 
 .project {
-  /*background-color: rgb(41, 41, 41);*/
-  background-color: rgba(226, 230, 237, 0.12);
-  height: 300px;
+  background-color: rgb(41, 41, 41);
+/*  background-image: url("images/glance.png"); */ 
+  /*background-size: 330px;*/
+  /*background-position: calc(100% - 40px) calc(50% + 4px);*/
+  background-repeat: no-repeat;
+  height: 400px;
   width: 100%;
   border-radius: 16px;
   padding: 0 50px 0 50px;
   /*box-shadow: inset 0 -5px 40px 0 rgba(0,0,0,0.10);*/
+
+  /*FaceChat styles*/
+  /*background-color: #363030;*/
+
 
   margin-top: 12px;
 }
@@ -325,7 +335,7 @@ a.project {
 }
 
 .project h1 {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 .project h2 {
@@ -358,7 +368,52 @@ a.project {
 }
 
 #home .project:hover .skills {
-  opacity: 0.4
+  opacity: 0.4;
+}
+
+#home #Glance {
+	background-image: url("images/glance.png"), linear-gradient(180deg, rgba(65,82,82,0.00) 50%, #415252 100%, #594439 100%);
+
+	background-position: calc(40px) calc(50% + 4px), center;
+	background-size: 330px, 100%;
+	border-radius: 18px;
+	background-color: #343738;
+}
+
+#home #Glance h2 {
+	color: #ECFFFF;
+}
+
+#home #FaceChat {
+	background-image: url("images/demo2.png"), linear-gradient(180deg, rgba(80,58,47,0.00) 50%, #4B372D 100%, #594439 100%);
+
+	background-color: #363030;
+	background-position: calc(100% - 40px) calc(50% + 4px), center;
+	background-size: 330px, 100%;
+	opacity: 0.87;
+	/*background-color: pink;*/
+}
+
+#home #FaceChat h2 {
+	color: #FFDCCC;
+}
+
+#home .project h2 {
+	margin-bottom: 0;
+}
+
+#home .project.text_right h2 {
+	width: 100%;
+}
+
+#home .project.text_right {
+	/*background-size: 330px;*/
+	/*background-position: calc(40px) calc(50% + 4px);*/
+}
+
+#home .project.text_right div {
+	float: right;
+	width: 40%;
 }
 
 
@@ -368,7 +423,9 @@ a.project {
   height: 75vh;
   max-height: 520px;
   min-height: 300px;
-  background: linear-gradient(rgb(151, 155, 160) 42.02%, rgba(196, 195, 189, 1));
+  /*background: linear-gradient(rgb(151, 155, 160) 42.02%, rgba(196, 195, 189, 1));*/
+  background-image: url("images/banner.png");
+  background-size: 90%;
 }
 
 #project #header {
@@ -465,6 +522,11 @@ a.project {
     transform: translateY(-170%);
   }
 
+  #home .project.text_right div {
+	float: initial;
+	width: initial;
+}
+
   .split {
     height: initial;
   }
@@ -495,7 +557,7 @@ a.project {
   .left, .right {
     float: none;
   }
-  
+
 }
 
 /*Small screen widths*/
