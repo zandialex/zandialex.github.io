@@ -124,6 +124,11 @@ body.lightMode {
 	text-align: right;
 }
 
+.fit_content {
+	width: fit-content;
+	width: -webkit-fit-content;
+}
+
 /*Split*/
 
 .split {
@@ -336,6 +341,16 @@ a.project {
 
 .project h1 {
   font-size: 34px;
+
+  /*Need this to make the background color work when it's*/
+	/*covering the background image*/
+	display: inline;
+}
+
+.project h1.logo {
+	background: pink;
+	padding: 10px 16px 10px 16px;
+	margin: -10px -20px -10px 0px;
 }
 
 .project h2 {
@@ -376,8 +391,7 @@ a.project {
 
 	background-position: calc(40px) calc(50% + 4px), center;
 	background-size: 330px, 100%;
-	border-radius: 18px;
-	background-color: #343738;
+	background-color: #1C2323;
 }
 
 #home #Glance h2 {
@@ -385,9 +399,10 @@ a.project {
 }
 
 #home #FaceChat {
-	background-image: url("images/demo2.png"), linear-gradient(180deg, rgba(80,58,47,0.00) 50%, #4B372D 100%, #594439 100%);
 
-	background-color: #363030;
+	background-image: url("images/demo2.png"), linear-gradient(180deg, rgba(76,56,52,0.00) 50%, #4C3834 100%);
+
+	background-color: #231B1B;
 	background-position: calc(100% - 40px) calc(50% + 4px), center;
 	background-size: 330px, 100%;
 	opacity: 0.87;
@@ -400,6 +415,10 @@ a.project {
 
 #home .project h2 {
 	margin-bottom: 0;
+
+	/*Need this to make the background color work when it's*/
+	/*covering the background image*/
+	display: table-row;
 }
 
 #home .project.text_right h2 {
@@ -414,6 +433,26 @@ a.project {
 #home .project.text_right div {
 	float: right;
 	width: 40%;
+}
+
+#home .project .badge.TestFlight {
+	background: rgba(0,0,0,0.83);
+	margin-bottom: -100px;
+	position: relative;
+	left: 50px;
+	margin-top: 8px;
+	margin-right: 8px;
+	text-align: right;
+	width: initial;
+	float: right;
+	font-size: 14px;
+	padding: 8px 14px;
+	border-radius: 8px;
+	background-image: url("images/testflight_icon.png");
+background-repeat: no-repeat;
+background-size: 24px;
+background-position: 7px center;
+padding: 10px 12px 11px 41px;
 }
 
 
@@ -491,6 +530,15 @@ a.project {
   background-color: rgba(105, 191, 254, 0.99);
 }
 
+#wish img {
+	height: 46px;
+	width: auto;
+	margin: 0;
+	position: relative;
+	left: -10px;
+	border-radius: 0;
+}
+
  #wish h1, #wish h2 {
   color: white;
  }
@@ -503,8 +551,26 @@ a.project {
   color: white;
  }
 
+ #yelp img {
+	height: 75px;
+	width: auto;
+	margin: 0;
+	position: relative;
+	left: 0px;
+	border-radius: 0;
+}
+
 #kik {
   background-color: white;
+}
+
+#kik img {
+	height: 54px;
+	width: auto;
+	margin: 0;
+	position: relative;
+	left: 0px;
+	border-radius: 0;
 }
 
 
@@ -520,6 +586,10 @@ a.project {
   .project .centerVertically {
     top: 100%;
     transform: translateY(-170%);
+  }
+
+  #home #Glance {
+  	background-position: calc(100% - 40px) calc(50% + 4px), center;
   }
 
   #home .project.text_right div {
@@ -586,6 +656,10 @@ a.project {
 
   #home p {
     padding: 0 30px 0 30px;
+  }
+
+  #home .project .badge.TestFlight {
+  	left: 30px;
   }
 
 
