@@ -532,11 +532,13 @@ padding: 10px 12px 11px 41px;
 
 #wish img {
 	height: 46px;
-	width: auto;
-	margin: 0;
-	position: relative;
-	left: -10px;
-	border-radius: 0;
+width: auto;
+margin: 0;
+position: relative;
+left: -10px;
+top: -24px;
+border-radius: 0;
+margin-bottom: -20px;
 }
 
  #wish h1, #wish h2 {
@@ -586,6 +588,16 @@ padding: 10px 12px 11px 41px;
   .project .centerVertically {
     top: 100%;
     transform: translateY(-170%);
+  }
+
+  .compactBlurredBackground {
+  	width: fit-content;
+  	width: -webkit-fit-content !important;
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
+	padding: 4px 14px 0px 14px;
+	margin: 0px 0px 0px -14px;
+	border-radius: 6px;
   }
 
   #home #Glance {
