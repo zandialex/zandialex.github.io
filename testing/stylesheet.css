@@ -36,6 +36,7 @@ body.lightMode {
 
 .lightMode .project {
   box-shadow: none;
+  /*overflow: auto;*/
 }
 
 .lightMode .project {
@@ -317,6 +318,7 @@ a.project {
 }
 
 .project {
+	overflow: auto;
   background-color: rgb(41, 41, 41);
 /*  background-image: url("images/glance.png"); */ 
   /*background-size: 330px;*/
@@ -387,7 +389,7 @@ a.project {
 }
 
 #home #Glance {
-	background-image: url("images/glance.png"), linear-gradient(180deg, rgba(65,82,82,0.00) 50%, #415252 100%, #594439 100%);
+	background-image: url("images/glance.png"), linear-gradient(180deg, rgba(53,66,66,0.00) 50%, #354242 100%, #594439 100%);
 
 	background-position: calc(40px) calc(50% + 4px), center;
 	background-size: 330px, 100%;
@@ -400,13 +402,13 @@ a.project {
 
 #home #FaceChat {
 
-	background-image: url("images/demo2.png"), linear-gradient(180deg, rgba(76,56,52,0.00) 50%, #4C3834 100%);
+	background-image: url("images/demo2.png"), linear-gradient(180deg, rgba(62,47,44,0.00) 50%, #3E2F2C 100%);
 
 	background-color: #231B1B;
 	background-position: calc(100% - 40px) calc(50% + 4px), center;
 	background-size: 330px, 100%;
 	opacity: 0.87;
-	/*background-color: pink;*/
+	
 }
 
 #home #FaceChat h2 {
@@ -421,13 +423,16 @@ a.project {
 	display: table-row;
 }
 
+#home .project .titles {
+	left: 40px;
+}
+
 #home .project.text_right h2 {
 	width: 100%;
 }
 
-#home .project.text_right {
-	/*background-size: 330px;*/
-	/*background-position: calc(40px) calc(50% + 4px);*/
+#home .project.text_right .titles {
+	left: 0;
 }
 
 #home .project.text_right .titles {
@@ -559,9 +564,9 @@ a.project {
 #wish {
   background-color: rgba(105, 191, 254, 0.99);
   color: rgba(105, 191, 254, 0.99);
-  background-image: url("images/wish4.png");
-	background-size: 330px;
-	background-position: calc(100% - 50px) calc(50% + -11px);
+  background-image: url("images/wish4.png"), linear-gradient(180deg, rgba(162,230,255,0.00) 50%, #A2E6FF 100%);
+	background-size: 330px, 100%;
+	background-position: calc(100% - 50px) calc(50% + -11px), center;
 }
 
 #wish img {
@@ -569,6 +574,7 @@ a.project {
 width: auto;
 margin: 0;
 margin-bottom: 4px;
+margin-top: 4px; /*manual adjustment to perfectly center*/
 position: relative;
 left: -10px;
 /*top: -24px;*/
@@ -580,12 +586,12 @@ border-radius: 0;
   color: white;
  }
 
- #yelp {
-  background-color: rgb(227, 61, 61);
-  color: rgb(227, 61, 61);
-  background-image: url("images/yelp_graphic3.png");
-background-size: 350px;
-background-position: calc(50px) calc(50% + 30px);
+#yelp {
+	background-color: #C71E24;
+	color: rgb(227, 61, 61);
+	background-image: url("images/yelp_graphic3.png"), linear-gradient(180deg, rgba(255,255,255,0.00) 50%, rgba(255,255,255,0.14) 100%);
+	background-size: 350px, 100%;
+	background-position: calc(50px) calc(50% + 30px), center;
 }
 
  #yelp h1, #yelp h2 {
@@ -606,14 +612,17 @@ background-position: calc(50px) calc(50% + 30px);
 }
 
 #kik {
-  color: white;
+  color: #607046;
   background: #E2FFD8;
 background-image: url("images/kik_graphic.png"), linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.5));
-border-radius: 18px;
 background-position: calc(100% - 40px) calc(50% + 78px), center;
 background-size: 440px, 100%;
 background-repeat: no-repeat;
 }
+
+#kik h1, #kik h2 {
+  color: #607046;
+ }
 
 #kik img {
 	height: 46px;
@@ -634,6 +643,10 @@ background-repeat: no-repeat;
   #wrapper {
     width: 80%;
   }
+
+  #home .project .titles {
+	left: 0px;
+}
 
   .project .centerVertically {
     top: 100%;
@@ -670,6 +683,9 @@ background-repeat: no-repeat;
   	background-color: rgba(105, 191, 254, 0.38);
   }
 
+.project#kik .titles.compactBlurredBackground {
+  	background-color: rgba(255, 255, 255, 0.4);
+  }
   #home #Glance {
   	background-position: calc(100% - 40px) calc(50% + 4px), center;
   }
