@@ -430,12 +430,12 @@ a.project {
 	/*background-position: calc(40px) calc(50% + 4px);*/
 }
 
-#home .project.text_right div {
+#home .project.text_right .titles {
 	float: right;
 	width: 40%;
 }
 
-#home .project .badge.TestFlight {
+#home .project div.badge {
 	background: rgba(0, 0, 0, 0.7);
 	margin-bottom: -100px;
 	position: relative;
@@ -447,12 +447,42 @@ a.project {
 	float: right;
 	font-size: 14px;
 	padding: 8px 14px;
+	padding: 9px 12px 10px 12px;
 	border-radius: 8px;
+}
+
+#home .project .badge.TestFlight {
+/*background: rgba(0, 0, 0, 0.7);*/
+	/*margin-bottom: -100px;*/
+	/*position: relative;*/
+	/*left: 50px;*/
+	/*margin-top: 8px;*/
+	/*margin-right: 8px;*/
+	/*text-align: right;*/
+	/*width: initial;*/
+	/*float: right;*/
+	/*font-size: 14px;*/
+	/*padding: 8px 14px;*/
+	/*padding: 9px 12px 10px 12px;*/
+	/*border-radius: 8px;*/
+
+
 	background-image: url("images/testflight_icon.png");
-background-repeat: no-repeat;
-background-size: 24px;
-background-position: 7px center;
-padding: 10px 12px 11px 41px;
+	background-repeat: no-repeat;
+	background-size: 24px;
+	background-position: 6px center;
+	padding-left: 41px;
+}
+
+#home .project .badge.comingSoon {
+	/*color: inherit;*/
+	color: white;
+	text-shadow: none;
+	background-color: rgba(242, 158, 0, 0.84);
+
+	background-repeat: no-repeat;
+	background-size: 24px;
+	background-position: 6px center;
 }
 
 
@@ -528,6 +558,10 @@ padding: 10px 12px 11px 41px;
 
 #wish {
   background-color: rgba(105, 191, 254, 0.99);
+  color: rgba(105, 191, 254, 0.99);
+  background-image: url("images/wish4.png");
+	background-size: 330px;
+	background-position: calc(100% - 50px) calc(50% + -11px);
 }
 
 #wish img {
@@ -548,6 +582,10 @@ border-radius: 0;
 
  #yelp {
   background-color: rgb(227, 61, 61);
+  color: rgb(227, 61, 61);
+  background-image: url("images/yelp_graphic3.png");
+background-size: 350px;
+background-position: calc(50px) calc(50% + 30px);
 }
 
  #yelp h1, #yelp h2 {
@@ -568,11 +606,17 @@ border-radius: 0;
 }
 
 #kik {
-  background-color: white;
+  color: white;
+  background: #E2FFD8;
+background-image: url("images/kik_graphic.png"), linear-gradient(rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.5));
+border-radius: 18px;
+background-position: calc(100% - 40px) calc(50% + 78px), center;
+background-size: 440px, 100%;
+background-repeat: no-repeat;
 }
 
 #kik img {
-	height: 50px;
+	height: 46px;
 	width: auto;
 	margin: 0;
 	margin-bottom: 4px;
@@ -596,6 +640,18 @@ border-radius: 0;
     transform: translateY(-170%);
   }
 
+  .project#wish .titles.centerVertically {
+  	transform: translateY(-150%);
+  }
+
+  .project#yelp .titles.centerVertically {
+  	transform: translateY(-131%);
+  }
+
+  .project#kik .titles.centerVertically {
+  	transform: translateY(-152%);
+  }
+
   .compactBlurredBackground {
   	width: fit-content;
   	width: -webkit-fit-content !important;
@@ -606,11 +662,19 @@ border-radius: 0;
 	border-radius: 6px;
   }
 
+  .project#yelp .titles.compactBlurredBackground {
+  	background-color: rgba(208, 64, 64, 0.25);
+  }
+
+  .project#wish .titles.compactBlurredBackground {
+  	background-color: rgba(105, 191, 254, 0.38);
+  }
+
   #home #Glance {
   	background-position: calc(100% - 40px) calc(50% + 4px), center;
   }
 
-  #home .project.text_right div {
+  #home .project.text_right .titles {
 	float: initial;
 	width: initial;
 }
@@ -646,33 +710,7 @@ border-radius: 0;
     float: none;
   }
 
-  #home #wish img,
-  #home #wish h2 {
-  	top: 8px;
-	position: relative;
-  }
-
-  /*Need this to remove table-row style (was used for alignment)*/
-  #home #wish h2 {
-  	display: initial;
-  }
-
-  #home #yelp img,
-  #home #yelp h2 {
-  	top: 20px;
-	position: relative;
-  }
-
-  /*Need this to remove table-row style (was used for alignment)*/
-  #home #yelp h2 {
-  	display: initial;
-  }
-
-  #home #kik img,
-  #home #kik h2 {
-  	top: 10px;
-	position: relative;
-  }
+  
 
   /*Need this to remove table-row style (was used for alignment)*/
   #home #kik h2 {
