@@ -515,7 +515,7 @@ background: linear-gradient(rgba(62, 47, 44, 0) 50%, #3e2f2c), #1A1414;
 	width: 100%;
 	/*background: red;*/
 	float: right;
-	margin-bottom: -100%;
+	margin-bottom: -200%;
 	position: relative;
 	top: calc(56px + 15px);
 	background-size: contain;
