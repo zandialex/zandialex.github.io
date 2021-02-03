@@ -203,6 +203,7 @@ body.lightMode {
 
 #home #wrapper {
   /*margin-bottom: 180px;*/
+  overflow: visible;
 }
 
 #home #header {
@@ -319,6 +320,10 @@ a.project {
   text-decoration: none;
 }
 
+a.project:hover {
+  transform: scale(1.02);
+}
+
 .project {
 	overflow: auto;
   background-color: rgb(41, 41, 41);
@@ -340,7 +345,7 @@ a.project {
 }
 
 .project:hover {
-  background-color: rgba(226, 230, 237, 0.22);
+  
 }
 
 .project h1 {
