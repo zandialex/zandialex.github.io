@@ -210,6 +210,10 @@ body.lightMode {
   margin: 60px;
 }
 
+#home .project h2 {
+  opacity: 0.8
+}
+
 img {
   border-radius: 9px;
   /*margin: auto;*/
@@ -572,6 +576,16 @@ background: linear-gradient(rgba(62, 47, 44, 0) 50%, #3e2f2c), #1A1414;
 
 #project #content p {
   /*margin-bottom: 10vh;*/
+}
+
+
+/*Individual Project Pages*/
+
+body#project.FaceChat h2,
+body#project.FaceChat p
+{
+  /*Project tint*/
+  color: #fff4f0;
 }
 
 
