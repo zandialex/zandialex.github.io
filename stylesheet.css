@@ -96,6 +96,11 @@ body.lightMode {
   -webkit-backdrop-filter: blur(15px);
 }
 
+.compactBlurredBackground {
+  padding: 0;
+  margin: 0;
+}
+
 .darkMaterial {
   background: rgba(0, 0, 0, 0.3);
 }
@@ -357,7 +362,9 @@ a.project:hover {
 
   /*Need this to make the background color work when it's*/
 	/*covering the background image*/
-	display: inline;
+	/*display: inline;*/
+  margin-bottom: 0px;
+  display: inline-block;
 }
 
 .project h1.logo {
@@ -699,11 +706,11 @@ background-repeat: no-repeat;
 
   .project .centerVertically {
     top: 100%;
-    transform: translateY(-170%);
+    transform: translateY(-150%);
   }
 
   .project#wish .titles.centerVertically {
-  	transform: translateY(-150%);
+  	transform: translateY(-134%);
   }
 
   .project#yelp .titles.centerVertically {
@@ -711,30 +718,73 @@ background-repeat: no-repeat;
   }
 
   .project#kik .titles.centerVertically {
-  	transform: translateY(-152%);
+  	transform: translateY(-137%);
+  }
+
+  .project#yelp .compactBlurredBackground {
+    background-color: rgba(208, 64, 64, 0.25);
+  }
+
+  .project#wish .compactBlurredBackground {
+    background-color: rgba(105, 191, 254, 0.38);
+  }
+
+  .project#kik .compactBlurredBackground {
+    background-color: rgba(255, 255, 255, 0.73);
   }
 
   .compactBlurredBackground {
   	width: fit-content;
   	width: -webkit-fit-content !important;
-	backdrop-filter: blur(15px);
+	 backdrop-filter: blur(15px);
 	-webkit-backdrop-filter: blur(15px);
-	padding: 4px 14px 0px 14px;
+	/*padding: 4px 14px 0px 14px;*/
+  padding-left: 8px;
+  padding-right: 8px;
 	margin: 0px 0px 0px -14px;
 	border-radius: 6px;
   }
 
-  .project#yelp .titles.compactBlurredBackground {
-  	background-color: rgba(208, 64, 64, 0.25);
+  #home h1.compactBlurredBackground {
+    margin-bottom: 2px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
-  .project#wish .titles.compactBlurredBackground {
-  	background-color: rgba(105, 191, 254, 0.38);
+  background-color: rgba(105, 191, 254, 0.38);
+
+  #home .project#wish .compactBlurredBackground {
+    background-color: rgba(105, 191, 254, 0.38);
+    background:red;
   }
 
-.project#kik .titles.compactBlurredBackground {
-  	background-color: rgba(255, 255, 255, 0.4);
+  /*The wish logo img*/
+  #home .project#wish div.compactBlurredBackground {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
   }
+
+  /*The yelp logo img*/
+  #home .project#yelp div.compactBlurredBackground {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+  }
+
+  /*The kik logo img*/
+  #home .project#kik div.compactBlurredBackground {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+  }
+
+  #home .project#wish div.compactBlurredBackground img {
+    left: 0px;
+  }
+
   #home #Glance {
   	background-position: calc(100% - 40px) calc(50% + 4px), center;
   }
@@ -794,6 +844,10 @@ background-repeat: no-repeat;
     transform: translateY(-150%);
   }
 
+  .project .titles.centerVertically {
+    transform: translateY(-132%);
+  }
+
   #home #wrapper {
     width: 100%;
   }
@@ -828,6 +882,18 @@ background-repeat: no-repeat;
   #home #Glance {
   	background-position: center;
   	background-size: 210px, 100%;
+  }
+
+  .project#wish .titles.centerVertically {
+    transform: translateY(-120%);
+  }
+
+  .project#yelp .titles.centerVertically {
+    transform: translateY(-116%);
+  }
+
+  .project#kik .titles.centerVertically {
+    transform: translateY(-120%);
   }
 
 
