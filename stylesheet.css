@@ -519,12 +519,16 @@ a.project:hover {
   background-color: rgba(255, 255, 255, 0.05);
 
   /*background-image: url("images/facechat/tile.png");*/
-/*background-size: 8px;*/
-background: linear-gradient(rgba(62, 47, 44, 0) 50%, #3e2f2c), #1A1414;
+  /*background-size: 8px;*/
+  background: linear-gradient(rgba(62, 47, 44, 0) 50%, #3e2f2c), #1A1414;
 }
 
 #project #header {
   background-image: gray
+}
+
+#project.Glance #header {
+  background: linear-gradient(180deg, rgba(53,66,66,0.00) 50%, #354242 100%, #594439 100%), #111616;
 }
 
 #banner {
@@ -539,8 +543,14 @@ background: linear-gradient(rgba(62, 47, 44, 0) 50%, #3e2f2c), #1A1414;
 	background-image: url("images/facechat/banner.png");
 	background-position: center;
 	background-repeat: no-repeat;
+}
 
+.FaceChat #banner {
+  background-image: url("images/facechat/banner.png");
+}
 
+.Glance #banner {
+  background-image: url("images/glance/banner.png");
 }
 
 .mainTitle.centerVertically {
@@ -598,8 +608,11 @@ body#project.FaceChat p
 
 /*Individual Project Styles*/
 
-.FaceChat .split {
-	height: 350px;
+.FaceChat .split,
+.Glance .split
+{
+	/*height: 350px;*/
+  height: 380px;
 }
 
 #glance {
