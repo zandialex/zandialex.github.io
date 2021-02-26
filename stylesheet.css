@@ -479,7 +479,7 @@ a.project:hover {
 /*background: rgba(0, 0, 0, 0.7);*/
 	/*margin-bottom: -100px;*/
 	/*position: relative;*/
-	left: -69px;
+	/*left: -69px;*/
 	/*margin-top: 8px;*/
 	/*margin-right: 8px;*/
 	/*text-align: right;*/
@@ -881,7 +881,7 @@ background-repeat: no-repeat;
   }
 
   #home .project#Glance .badge.TestFlight {
-  	left: -92px;
+  	/*left: -92px;*/
   }
 
   #home .project div.badge {
