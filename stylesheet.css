@@ -720,7 +720,7 @@ background-repeat: no-repeat;
 @media screen and (max-width: 760px) {
 
   #wrapper {
-    width: 80%;
+    width: 85%;
   }
 
   #home .project .titles {
