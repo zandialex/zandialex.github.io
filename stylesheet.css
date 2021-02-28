@@ -531,6 +531,14 @@ a.project:hover {
   background: linear-gradient(180deg, rgba(53,66,66,0.00) 50%, #354242 100%, #594439 100%), #111616;
 }
 
+#project.Glance .mainTitle h2 {
+  color: #ECFFFF;
+}
+
+#project.FaceChat .mainTitle h2 {
+  color: #FFDCCC;
+}
+
 #banner {
 	height: calc(100% - 130px - 56px - 30px);
 	width: 100%;
@@ -564,7 +572,8 @@ a.project:hover {
 }
 
 #project .mainTitle h2 {
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 21px;
   font-weight: normal;
   opacity: 0.7
 }
@@ -839,11 +848,13 @@ background-repeat: no-repeat;
     float: none;
   }
 
-  
-
   /*Need this to remove table-row style (was used for alignment)*/
   #home #kik h2 {
   	display: initial;
+  }
+
+  #project #header {
+    height: 72vh;
   }
 
 }
