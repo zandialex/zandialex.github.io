@@ -15,7 +15,7 @@
 
 body {
   /*background-color: #0A0A0A*/
-  background-color: #090909;
+  background-color: #040404;
   padding-bottom: 180px;
 }
 
@@ -398,13 +398,19 @@ a.project:hover {
 
 #home .project .skills {
   position: relative;
-  height: 0;
-  top: 26px;
+  /*height: 0;*/
+  /*top: 26px;*/
   opacity: 0;
 }
 
+#home .project .skills span {
+  border-radius: 12px;
+  background: white;
+  color: black;
+}
+
 #home .project:hover .skills {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 #home #Glance {
