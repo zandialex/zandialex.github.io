@@ -919,6 +919,9 @@ background-repeat: no-repeat;
   	background-size: 210px, 100%;
   }
 
+
+  /*project titles*/
+
   .project#wish .titles.centerVertically {
     transform: translateY(-120%);
   }
@@ -929,6 +932,26 @@ background-repeat: no-repeat;
 
   .project#kik .titles.centerVertically {
     transform: translateY(-120%);
+  }
+
+
+  /*project backgrounds*/
+
+  .project#wish,
+  .project#yelp,
+  .project#kik
+  {
+    background-size: 75%, 100%;
+    background-position: calc(50%) calc(50%), center;
+  }
+
+  .project#yelp {
+    background-size: 87%, 100%;
+  }
+
+  .project#kik {
+    background-size: 92%, 100%;
+    background-position: calc(50%) calc(50% + 20px), center;
   }
 
 
