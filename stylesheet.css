@@ -274,11 +274,16 @@ nav a {
   float: right;
   text-decoration: none;
   opacity: 0.8;
+  margin-right: 24px;
 }
 
 nav a:first-child {
   float: left;
   opacity: 1;
+}
+
+nav a:nth-child(2) {
+  margin-right: 0;
 }
 
 nav #wrapper {
