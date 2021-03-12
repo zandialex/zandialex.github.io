@@ -91,6 +91,11 @@ body.lightMode {
   border-radius: 25px;
 }
 
+.card {
+  background: rgba(255, 255, 255, 0.09);
+  padding: 36px;
+}
+
 .blurredBackground {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
@@ -126,6 +131,14 @@ body.lightMode {
   color: black;
 }
 
+.opaque {
+  opacity: 1;
+}
+
+.thin {
+  font-weight: 400;  
+}
+
 .text_align_right {
 	text-align: right;
 }
@@ -150,9 +163,22 @@ body.lightMode {
   margin-top: 12px;
 }
 
-/*.split .left h1 + p, .split .right h1 + p {
-  opacity: 0.6;
-}*/
+#home .split {
+  margin-top: 0;
+  height: 312px;
+}
+
+#home .split .left,
+#home .split .right
+{
+  width: calc(50% - 6px);
+}
+
+#home .split .left .project,
+#home .split .right .project
+{
+  height: 300px;
+}
 
 .left, .right {
   /*height: 100%;*/
@@ -836,8 +862,14 @@ background-repeat: no-repeat;
     width: initial;
   }
 
-  #wrapper .split .left *, #wrapper .split .right *{
+  #wrapper .split .left *, #wrapper .split .right * {
     margin-bottom: 24px;
+  }
+
+  #home #wrapper .split .left *,
+  #home #wrapper .split .right *
+  {
+    margin-bottom: 0px;
   }
 
   #wrapper .split .left h1, #wrapper .split .right h1 {
