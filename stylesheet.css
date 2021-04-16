@@ -214,7 +214,7 @@ body.lightMode {
   padding-bottom: 15vh;
   margin-top: 15vh;
   background: linear-gradient(rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.15));
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.065);
 }
 
 #wrapper p:last-child {
